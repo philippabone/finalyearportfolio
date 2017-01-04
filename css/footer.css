@@ -1,0 +1,22 @@
+.footer-center{
+    background-color: #6d0911;
+}
+
+.footer-right{
+    background-color: #007eff;
+}
+
+.footer-left{
+    background-color: #777777;
+}
+
+footer {
+    dipslay:flex;
+    flex-direction: column;
+}
+
+.footer-center,
+.footer-left,
+.footer-right {
+    width: 100%;
+}

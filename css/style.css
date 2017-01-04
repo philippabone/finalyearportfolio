@@ -1,0 +1,1001 @@
+
+
+/* Mobile View */
+
+@import url('https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand|Walter+Turncoat');
+
+/* HEADER */
+
+@font-face {
+    font-family: titlefont;
+    src:url(PatrickHand-Regular.ttf);
+}
+
+@font-face {
+    font-family: bodyfont;
+    src:url(SourceSansPro-Regular.ttf);
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    margin: 0;
+    padding: 0;
+
+}
+
+#page {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+em{
+    font-weight: bold;
+}
+
+
+a {
+    color: #4b0a0c;
+}
+
+a:visited {
+    color: #cc9966;
+}
+
+a.btn{
+    font-size: 1.2em;
+    text-decoration: none;
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    transition: background-color .5s;
+    background-color: rgba(0,0,0,.3);
+}
+
+a.btn:hover{
+    background-color: rgba(0,0,0,.7);
+}
+/* MAIN H1 ACROSS SITE */
+
+
+.headingcontent{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+    left: 0;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    font-family: titlefont;
+    line-height: 2em;
+}
+
+
+
+/* photos*/
+
+.carousel {
+    background: #EEE;
+}
+
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+
+/* Header */
+
+    .banner{
+        text-align: center;
+        font-family: titlefont;
+        color: white;
+        background-color: #392613;
+
+    }
+
+    header {
+        height: 600px;
+        background-image: url(../images/fudge-background.jpg);
+        width: 100%;
+
+    }
+
+    header a.logo {
+        z-index: 1;
+        position: absolute;
+        height: 36px;
+        width: 80%;
+        left: 0;
+        top: 0;
+
+        background-size: 126px 17px;
+    }
+
+    header a.logo span{
+        display:none;
+    }
+
+    header div.hero {
+        position: absolute;
+        width: 100%;
+        top: 150px;
+        left: 0;
+        text-align: center;
+    }
+
+    div.hero h1 {
+        /*background-color: rgba(0,0,0,.7);*/
+        background-color: #392613;
+
+    }
+    header div.hero img {
+        width: 100%;
+    }
+    /* ???????? */
+
+    .house {
+        text-align: center;
+        width: 50%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    header div.hero h1{
+        font-size: 3.5em;
+        color: #fff;
+        font-family: titlefont;
+
+    }
+
+    header div.hero  h2{
+        font-size: 1.5em;
+        line-height: 0.9em;
+        margin: 0 0 30px 0;
+        color: #fff;
+    }
+
+    header div.hero a.btn {
+        padding: 20px 30px;
+        font-size: 1em;
+    }
+
+
+
+/* CONTENT - HOMEPAGE */
+
+
+    section.main {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        flex:1;
+
+    }
+
+    .content {
+        width: 100%;
+        left: 0;
+        text-align: center;
+        height: 300px;
+        border-top: 0.7em solid #fff;
+    }
+
+    .image {
+        display: none;
+
+    }
+
+    .content h2 {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 2em;
+        color: #fff;
+        font-family: titlefont, Patrick, sans-serif;
+        background-color: #392613;
+    }
+
+    .content h3 {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0 0 30px 0;
+        color: #fff;
+        font-family: bodyfont, "Open Sans";
+
+    }
+
+    .content p {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin: 0 0 30px 0;
+        color: #fff;
+        font-family: bodyfont;
+
+    }
+
+    a.link {
+        text-decoration: none;
+        text-underline: none;
+    }
+    /* HOMEPAGE - SHOP */
+
+    .shop {
+        background-color: #e6ccb3;
+    }
+
+    .shop:hover {
+        background-color:rgba(230, 204, 179, 0.8);
+    }
+
+    /* HOMEPAGE - FUDGE */
+
+    .fudge {
+        background-color: #cc9966;
+      /*  background-image: url("../images/fudge-back.jpeg"); */
+    }
+
+
+    /* HOMEPAGE - CHOCOLATE */
+
+    .chocolate {
+        background-color: #ac7339;
+        /*  background-image: url("../images/fudge-back.jpeg"); */
+    }
+
+    /* HOMEPAGE - CONTACT */
+
+    .contact {
+        background-color: #604020;
+        /*  background-image: url("../images/fudge-back.jpeg"); */
+    }
+
+    .contact:hover {
+        background-color:rgba(96, 64, 32, 0.9);
+    }
+
+
+.fudge-image {
+        background: #e6ccb3 url("../images/fudge-back.jpeg") no-repeat;
+
+    }
+
+    .choco-image {
+        background-image:url("../images/chocolate_back.jpeg");
+
+    }
+
+    FOOTER
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    footer .footer{
+        width: 100%;
+        background-color: #392613;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        flex: 50%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer p {
+        color: white;
+    }
+    .footer ul li{
+        color: white;
+        padding-top: 10px;
+    }
+    .footer ul {
+        list-style-type: none;
+    }
+    .left{
+        text-align: center;
+    }
+
+/* NAV */
+
+
+    .nav {
+        position: absolute;
+        width: 95%;
+        padding-left: 0;
+        background-color:#392613;
+        height: 80px;
+    }
+
+    .nav ul,
+    .nav ul ul{
+        display: block;
+        position: static;
+    }
+
+    .nav > ul {
+        padding: 0;
+    }
+
+    .nav > ul > li {
+        float: none;
+        margin-top: 25px;
+    }
+
+    .nav ul li:hover {
+        background: none;
+    }
+
+    .nav ul li a {
+        width: auto;
+        display: block;
+        margin: 5px 10px;
+        padding: 8px 15px;
+        border: none;
+    }
+
+    .nav ul li a:hover {
+        background-color: rgba(255,255,255,.2);
+
+    }
+
+    /* TOP LEVEL */
+    /*  target an unordered list if it is a child of a nav element  */
+
+    nav  > ul {
+        padding-left: 200px;
+    }
+
+    nav > ul > li {
+        float: left;
+    }
+
+    nav > ul  > li > a {
+        width: auto;
+        padding: 10px 20px 15px 20px;
+
+    }
+
+    /* Change background color of links on hover */
+
+    .nav ul li a:hover {
+        background-color:#392613;
+    }
+
+    /* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+    .nav .icon-wrapper {
+        float: right;
+    }
+
+    .nav {
+        background-color: #392613;
+    }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon */
+
+    .nav.responsive {
+        position: absolute;
+
+    }
+
+    .nav.responsive li {
+        float: none;
+        display: inline;
+    }
+    .nav.responsive li a {
+        display: block;
+        color: #fff;
+        font-size: 1.5em;
+        text-align: center;
+
+
+    }
+
+    /* SMALL SCREEN RESP NAV */
+
+    /* Remove margins and padding from the list */
+
+    .nav {
+        padding: 20px 0 0 15px;
+    }
+
+    .nav  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cc9966;
+
+    }
+
+    /* Float the list items side by side */
+    .nav ul li {
+        float: left;
+        display: none;
+
+    }
+
+    /* Style the links inside the list items */
+
+    .nav .icon {
+        display: block;
+        color: #f2f2f2;
+        margin: 6px 6px;
+        text-decoration: none;
+        transition: 0.3s;
+        font-size: 25px;
+        background-color: inherit;
+    }
+
+
+/* ABOUT US */
+
+    .aboutus {
+        text-align: left;
+        font-size: 1em;
+        padding: 0 10px;
+    }
+
+    .aboutus p {
+        font-family: bodyfont;
+    }
+
+    .aboutus h3{
+        font-family: 'Walter Turncoat', cursive;
+        /*font-family: titlefont;*/
+        padding: 0 20px;
+        text-align: center;
+
+    }
+
+    .aboutus h2{
+        font-family: 'Walter Turncoat', cursive;
+        /*font-family: titlefont;*/
+        text-align: center;
+        padding: 0 20px;
+        color: #f2f2f2;
+        background-color: #392613;
+        font-size: 2em;
+    }
+
+/* FUDGE */
+    .products {
+        text-align: left;
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
+    .products p {
+        font-family: bodyfont;
+        text-align: center;
+
+    }
+
+    .products h2{
+        font-family: titlefont, Patrick;
+        text-align: center;
+        padding: 0 20px;
+        color: #f2f2f2;
+        background-color: #392613;
+        font-size: 2em;
+    }
+
+    .container {
+        display: -ms-flexbox;
+        -ms-flex-wrap: wrap;
+        -ms-flex-direction: column;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        display: -webkit-box;
+        display: flex;
+    }
+    .container div {
+        -ms-flex: auto;
+        flex: auto;
+        width: 200px;
+        margin: 0;
+    }
+    .container div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container div p {
+        font-size: 1.5em;
+        font-family: titlefont, Patrick;
+        text-align: center;
+        text-decoration: underline;
+        color: #392613;
+    }
+
+/* PRODUCT PAGE - FUDGE */
+
+    .product-page {
+        text-align: left;
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
+    .product-page p {
+        font-family: bodyfont;
+    }
+
+    .product-page h2{
+        font-family: titlefont, Patrick;
+        text-align: center;
+        padding: 0 20px;
+        background-color: #2b0306;
+    }
+
+    .product-img {
+        width: 100%;
+        height: auto;
+    }
+
+/* SELECT BOX ON PRODUCT PAGE */
+
+    .container-product h3 {
+        font-family: titlefont, Patrick;
+        text-align: center;
+    }
+    .select-style {
+        margin-left: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #4b0a0c;
+        width: 90%;
+        border-radius: 3px;
+        overflow: hidden;
+        background: #fafafa 90% 50%;
+
+    }
+
+    .select-style select {
+        padding: 20px 32px;
+        width: 150%;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+        background-image: none;
+        -webkit-appearance: none;
+        font-size: 0.9em;
+    }
+
+    .select-style select:focus {
+        outline: none;
+    }
+
+/* BUTTON */
+    .button {
+        width: 90%;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        background-color: #2b0306;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+ /* EVENTS */
+
+    .event-image{
+        background-image: url("../images/event.jpg");
+    }
+
+    .event2-image{
+        background-image: url("../images/event.jpg");
+    }
+
+
+
+.events {
+    text-align: left;
+    font-size: 1em;
+    padding: 0 10px;
+}
+
+.events p {
+    font-family: bodyfont;
+}
+
+.events h3{
+    font-family: 'Walter Turncoat', cursive;
+    /*font-family: titlefont;*/
+    padding: 0 20px;
+    text-align: center;
+
+}
+
+.events h2{
+    font-family: 'Walter Turncoat', cursive;
+    /*font-family: titlefont;*/
+    text-align: center;
+    padding: 0 20px;
+    color: #f2f2f2;
+    background-color: #392613;
+    font-size: 2em;
+}
+
+/* CONTACT PAGE */
+
+    .contact-page {
+        text-align: left;
+        font-size: 1.2em;
+        padding: 0 10px;
+    }
+
+    .contact-page p {
+        font-family: bodyfont;
+    }
+
+    .contact-page h2{
+        font-family: titlefont, Patrick;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .contact-page ul li {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* CONTACT - CONTACT FORM */
+
+
+    #contact-area {
+        flex-direction: column;
+        width: 250px;
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+
+    #contact-area input, #contact-area textarea {
+        padding: 5px;
+        width: 250px;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+        border: 2px solid #cc9966;
+    }
+
+    #contact-area textarea {
+        height: 90px;
+    }
+
+    #contact-area textarea:focus, #contact-area input:focus {
+        border: 2px solid #900;
+    }
+
+    #contact-area input.submit-button {
+        width: 100px;
+        float: right;
+    }
+
+    label {
+        float: left;
+        margin-right: 15px;
+        width: 100px;
+        padding-top: 5px;
+        font-size: 1em;
+        font-family: titlefont, Patrick;
+    }
+
+
+
+
+
+
+/********* MEDIA QUERIES ********/
+
+
+
+
+@media screen and (min-width: 500px) {
+
+    header {
+        background-image: url(../images/fudge2_1200.jpg);
+        width: 100%;
+        height: 520px;
+    }
+
+    section.main {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .content h2 {
+        padding: 0;
+    }
+
+    .content h3 {
+        padding: 10px 80px;
+    }
+
+
+    .content {
+        height: 300px;
+        /*border: 0 10px;*/
+    }
+
+    section.main a {
+        -ms-flex: auto;
+        flex: auto;
+        width: 50%;
+        margin: 0;
+        height: 300px;
+    }
+/* currently showing at mobile
+    .fudge-image {
+        display: unset;
+        background: #e6ccb3 url("../images/fudge-back.jpeg") no-repeat;
+    }
+
+    .choco-image {
+        display: unset;
+        background-image:url("../images/chocolate_back.jpeg");
+    }
+  */
+
+    /* HOMEPAGE - CHOCOLATE */
+
+    .chocolate {
+        background-color: #ac7339;
+        /*  background-image: url("../images/fudge-back.jpeg"); */
+    }
+
+    /*
+        .image {
+            display: unset;  /* opposite of display none */
+ /*       width: 50%;
+        height: 300px;
+        border: none;
+    }*/
+
+    section.products p {
+        padding: 10px 40px;
+    }
+
+    .container div {
+        width: 250px;
+    }
+
+
+
+/* FUDGE 500PX */
+    .container div p {
+        font-size: 2em;
+
+    }
+
+/* DROP DOQWN MENU/BUTTON ON FUDGE BUYING PAGE - 500PX */
+
+    .select-style {
+        margin-left: 100px;
+        width: 60%;
+    }
+
+    .button {
+        width: 60%;
+        margin-left: 100px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 670px) {
+
+    em {
+        font-size: 1em;
+    }
+
+
+    /* HEADER */
+    header div.hero h1{
+        font-size: 5.5em;
+    }
+
+    header div.hero  h2{
+        font-size: 2em;
+        font-style: italic;
+    }
+
+    header div.hero a.btn {
+        font-size: 1em;
+    }
+
+/* HOMEPAGE - ABOUT US */
+
+    .content h3 {
+        font-size: 1.5em;
+    }
+
+    .content p {
+        font-size: 1.3em;
+        padding: 0 90px 0 90px;
+    }
+
+    .shop{
+            padding:0 10px;
+        }
+
+
+
+/* NAVIGATION */
+
+    .nav ul li {
+        display: block;
+        font-size: 1.2em;
+
+    }
+    .nav{
+        position: absolute;
+        width: 100%;
+        padding-left: 0;
+        background-color:#392613;
+    }
+
+    .nav .icon-wrapper {
+        display: none; /* dont show the hamburger icon*/
+    }
+
+    .nav  ul {
+        list-style-type: none;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 40px;
+        overflow: hidden;
+        background-color: #392613;
+        text-decoration: none;
+
+    }
+    .nav ul li a {
+        text-decoration: none;
+        font-family: titlefont, Patrick;
+    }
+
+    /* ABOUT */
+
+
+
+    section.aboutus p {
+        padding: 0 150px;
+    }
+
+
+
+/* FUDGE - PRODUCTS */
+
+    .products p {
+        font-size: 1.5em;
+    }
+
+    .container-product h3 {
+        font-size: 2.5em
+    }
+
+    /* DROP DOWN MENU/BUTTON ON FUDGE BUYING PAGE - 670PX */
+    .select-style {
+        margin-left: 25%;
+        width: 50%;
+
+    }
+
+    .select-style select {
+        padding: 20px 32px;
+        width: 150%;
+        font-size: 1.2em;
+    }
+
+    /* BUTTON */
+    .button {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 25px;
+
+    }
+
+    /* CONTACT */
+
+    .contact-page {
+        margin: 40px 0 10px 20px;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+    }
+
+    .contact-us {
+        flex-direction: row;
+    }
+
+    #contact-area {
+        width: 800px;
+        margin-top: 25px;
+    }
+
+    #contact-area input, #contact-area textarea {
+        width: 350px;
+        font-size: 1.4em;
+    }
+
+    label {
+        font-size: 1.7em;
+    }
+
+    /* FOOTER */
+    .icon-wrapper{
+        dipslay: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .footer {
+        flex: auto;
+        width: 33%;
+        height: 170px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 810px) {
+
+/* HOMEPAGE */
+
+    .fudge-image {
+        background: #e6ccb3 url("../images/fudge_825.jpg") no-repeat;
+
+    }
+
+    .choco-image {
+        background-image:url("../images/chocolate_back.jpeg");
+
+    }
+
+
+    .nav  ul {
+        padding-top: 10px;
+        padding-left: 200px;
+    }
+
+
+
+
+}
