@@ -6,6 +6,10 @@
 
 /* HEADER */
 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: titlefont;
     src:url(PatrickHand-Regular.ttf);
@@ -39,11 +43,17 @@ body {
 
 em{
     font-weight: bold;
+    text-align: center;
+}
+
+.about em {
+    color: #2b0306;
 }
 
 
 a {
-    color: #4b0a0c;
+    color: #cc9966;
+    text-decoration: none;
 }
 
 a:visited {
@@ -63,20 +73,85 @@ a.btn{
 a.btn:hover{
     background-color: rgba(0,0,0,.7);
 }
-/* MAIN H1 ACROSS SITE */
 
-
-.headingcontent{
-    position: absolute;
-    width: 100%;
-    top: 1%;
-    left: 0;
-    text-align: center;
-    font-size: 3em;
-    color: #fff;
-    font-family: titlefont;
-    line-height: 2em;
+.skipnav {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
+
+.skiptotop {
+    text-align: center;
+    color: #2b0306;
+    padding-bottom: 20px;
+}
+
+/* TEST CHECKBOXES */
+/* SOURCE : http://www.inserthtml.com/2012/06/custom-form-radio-checkbox/ */
+
+.regular-checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+.regular-checkbox:active, .regular-checkbox:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #99a1a7;
+}
+
+.big-checkbox {
+    padding: 18px;
+}
+
+.big-checkbox:checked:after {
+    font-size: 28px;
+    left: 6px;
+}
+/* end */
+
+/*  */
+input[type=checkbox]
+{
+    width:45px;
+    height:45px;
+
+}
+    /* FORM - GIFT PAGE*/
+    .gift{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+.fudge-purchase {
+    padding-top: 5px;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+}
+
 
 
 
@@ -106,514 +181,618 @@ a.btn:hover{
     color: white;
 }
 
+/* TEXT ON CAROUSEL */
+.text-carousel {
+    font-family: titlefont;
+    text-align: center;
+    padding: 0;
+    font-size: 2em;
+}
+
+/* TEST
+
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img-product {
+    width: 45%;
+} */
+
 
 /* Header */
 
-    .banner{
-        text-align: center;
-        font-family: titlefont;
-        color: white;
-        background-color: #392613;
+.banner{
+    text-align: center;
+    font-family: titlefont;
+    color: white;
+    background-color: #392613;
 
-    }
+}
 
-    header {
-        height: 600px;
-        background-image: url(../images/fudge-background.jpg);
-        width: 100%;
+header {
+    height: 600px;
+    background-image: url(../images/fudge-background.jpg);
+    width: 100%;
+    background-color: #2b0306;
 
-    }
+}
 
-    header a.logo {
-        z-index: 1;
-        position: absolute;
-        height: 36px;
-        width: 80%;
-        left: 0;
-        top: 0;
+header a {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+}
 
-        background-size: 126px 17px;
-    }
+header a.logo {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
-    header a.logo span{
-        display:none;
-    }
+.logo-image {
+    max-width: 100%;
+}
 
-    header div.hero {
-        position: absolute;
-        width: 100%;
-        top: 150px;
-        left: 0;
-        text-align: center;
-    }
+header a.logo span{
+    display:none;
+}
 
-    div.hero h1 {
-        /*background-color: rgba(0,0,0,.7);*/
-        background-color: #392613;
+header div.hero {
+    position: absolute;
+    width: 100%;
+    top: 150px;
+    left: 0;
+    text-align: center;
+}
 
-    }
-    header div.hero img {
-        width: 100%;
-    }
-    /* ???????? */
+header div.hero img {
+    width: 100%;
+}
 
-    .house {
-        text-align: center;
-        width: 50%;
-        padding-left: 0;
-        margin-top: 0;
-    }
+header div.hero h1{
+    background-color: #392613;
+    font-size: 3.5em;
+    color: #fff;
+    font-family: titlefont;
+    line-height: 93%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-    header div.hero h1{
-        font-size: 3.5em;
-        color: #fff;
-        font-family: titlefont;
+}
 
-    }
+header div.hero  h2{
+    font-size: 1.5em;
+    line-height: 0.9em;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
 
-    header div.hero  h2{
-        font-size: 1.5em;
-        line-height: 0.9em;
-        margin: 0 0 30px 0;
-        color: #fff;
-    }
-
-    header div.hero a.btn {
-        padding: 20px 30px;
-        font-size: 1em;
-    }
+header div.hero a.btn {
+    padding: 20px 30px;
+    font-size: 1em;
+}
 
 
 
 /* CONTENT - HOMEPAGE */
 
 
-    section.main {
-        display: flex;
-        flex-direction: column;
-        padding: 0px;
-        flex:1;
+section.main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    flex:1;
+}
 
-    }
+.home-text {
+    text-decoration: none ;
+}
 
-    .content {
-        width: 100%;
-        left: 0;
-        text-align: center;
-        height: 300px;
-        border-top: 0.7em solid #fff;
-    }
+.content {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    height: 320px;
+    border-top: 0.7em solid #392613;
+}
 
-    .image {
-        display: none;
+.image {
+    display: none;
 
-    }
+}
 
-    .content h2 {
-        text-align: center;
-        vertical-align: middle;
-        font-size: 2em;
-        color: #fff;
-        font-family: titlefont, Patrick, sans-serif;
-        background-color: #392613;
-    }
+.content h2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2em;
+    color: #fff;
+    font-family: titlefont, Patrick, sans-serif;
+    background-color: #392613;
+}
 
-    .content h3 {
-        font-size: 1em;
-        line-height: 1.5em;
-        margin: 0 0 30px 0;
-        color: #fff;
-        font-family: bodyfont, "Open Sans";
+.content h3 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-family: bodyfont, "Open Sans";
 
-    }
+}
 
-    .content p {
-        font-size: 1em;
-        line-height: 1.5em;
-        margin: 0 0 30px 0;
-        color: #fff;
-        font-family: bodyfont;
+.content p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 30px 0;
+    color: #fff;
+    font-family: bodyfont;
 
-    }
+}
 
-    a.link {
-        text-decoration: none;
-        text-underline: none;
-    }
-    /* HOMEPAGE - SHOP */
+a.link p {
+    text-decoration: none;
+    text-underline: none;
+}
 
-    .shop {
-        background-color: #e6ccb3;
-    }
-
-    .shop:hover {
-        background-color:rgba(230, 204, 179, 0.8);
-    }
-
-    /* HOMEPAGE - FUDGE */
-
-    .fudge {
-        background-color: #cc9966;
-      /*  background-image: url("../images/fudge-back.jpeg"); */
-    }
+a.link-shop {
+    display: block;
+}
 
 
-    /* HOMEPAGE - CHOCOLATE */
 
-    .chocolate {
-        background-color: #ac7339;
-        /*  background-image: url("../images/fudge-back.jpeg"); */
-    }
+/* HOMEPAGE - ABOUT */
 
-    /* HOMEPAGE - CONTACT */
+.about {
+    background-color: #e6ccb3;
+    height: 430px;
+}
+.about p {
+    color: #604020;
+}
 
-    .contact {
-        background-color: #604020;
-        /*  background-image: url("../images/fudge-back.jpeg"); */
-    }
 
-    .contact:hover {
-        background-color:rgba(96, 64, 32, 0.9);
-    }
+
+
+/* HOMEPAGE - FUDGE */
+
+.fudge {
+    background-color: #cc9966;
+}
+
+/* HOMEPAGE - CHOCOLATE */
+
+.chocolate {
+    background-color: #ac7339;
+}
+
+/* HOMEPAGE - CONTACT */
+
+.event {
+    background-color: #604020;
+    height: 370px
+
+}
+
+
 
 
 .fudge-image {
-        background: #e6ccb3 url("../images/fudge-back.jpeg") no-repeat;
+    background: #e6ccb3 url("../images/fudge-home.jpeg") no-repeat;
 
-    }
+}
+.choco-image {
+    background-image:url("../images/choco_drops.jpeg");
+}
+FOOTER
 
-    .choco-image {
-        background-image:url("../images/chocolate_back.jpeg");
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 
-    }
 
-    FOOTER
+}
 
-    footer {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
+footer .footer{
+    width: 100%;
+    background-color: #392613;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    flex: 50%;
+    text-align: center;
 
-    footer .footer{
-        width: 100%;
-        background-color: #392613;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        flex: 50%;
-        padding: 20px 0;
-        text-align: center;
-    }
+}
 
-    .footer p {
-        color: white;
-    }
-    .footer ul li{
-        color: white;
-        padding-top: 10px;
-    }
-    .footer ul {
-        list-style-type: none;
-    }
-    .left{
-        text-align: center;
-    }
+.footer p {
+    color: white;
+}
+.footer ul li{
+    color: white;
+    padding-top: 10px;
+}
+
+.footer ul li a {
+    color: white;
+}
+.footer ul {
+    list-style-type: none;
+}
+.left{
+    text-align: center;
+}
+
+footer .center p {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer .right ul {
+    padding-top: 20px;
+}
+
+footer .right ul li img{
+    height: 30px;
+    width: 30px;
+}
 
 /* NAV */
 
 
-    .nav {
-        position: absolute;
-        width: 95%;
-        padding-left: 0;
-        background-color:#392613;
-        height: 80px;
-    }
+.nav {
+    position: absolute;
+    width: 100%;
+    padding-left: 0;
+    background-color:#392613;
+    height: 100px;
+    z-index: 9999;
+}
 
-    .nav ul,
-    .nav ul ul{
-        display: block;
-        position: static;
-    }
+.nav ul,
+.nav ul ul{
+    //display: block;
+    //position: static;
 
-    .nav > ul {
-        padding: 0;
-    }
+}
 
-    .nav > ul > li {
-        float: none;
-        margin-top: 25px;
-    }
+.nav > ul {
+    padding: 0;
+}
 
-    .nav ul li:hover {
-        background: none;
-    }
+.nav > ul > li {
+    float: none;
+}
 
-    .nav ul li a {
-        width: auto;
-        display: block;
-        margin: 5px 10px;
-        padding: 8px 15px;
-        border: none;
-    }
+.nav ul li:hover {
+    background: none;
+}
 
-    .nav ul li a:hover {
-        background-color: rgba(255,255,255,.2);
+.nav ul li a {
+    width: auto;
+    display: block;
+    margin: 5px 10px;
+    padding: 15px 15px;
+    border: none;
+}
 
-    }
+.nav ul li a:hover {
+    background-color: rgba(255,255,255,.2);
 
-    /* TOP LEVEL */
-    /*  target an unordered list if it is a child of a nav element  */
+}
 
-    nav  > ul {
-        padding-left: 200px;
-    }
 
-    nav > ul > li {
-        float: left;
-    }
 
-    nav > ul  > li > a {
-        width: auto;
-        padding: 10px 20px 15px 20px;
+/* TOP LEVEL */
+/*  target an unordered list if it is a child of a nav element  */
 
-    }
+nav  > ul {
+    padding-left: 200px;
+}
 
-    /* Change background color of links on hover */
+nav > ul > li {
+    float: left;
+}
 
-    .nav ul li a:hover {
-        background-color:#392613;
-    }
+nav > ul  > li > a {
+    width: auto;
+    padding: 10px 20px 15px 20px;
 
-    /* Hide the list item that contains the link that should open and close the topnav on small screens */
+}
 
-    .nav .icon-wrapper {
-        float: right;
-    }
+/* Change background color of links on hover */
 
-    .nav {
-        background-color: #392613;
-    }
+.nav ul li a:hover {
+    background-color:#392613;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+.nav .icon-wrapper {
+    float: right;
+}
+
+.nav {
+    background-color: #392613;
+}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon */
 
-    .nav.responsive {
-        position: absolute;
+.nav.responsive {
+    position: absolute;
 
-    }
+}
 
-    .nav.responsive li {
-        float: none;
-        display: inline;
-    }
-    .nav.responsive li a {
-        display: block;
-        color: #fff;
-        font-size: 1.5em;
-        text-align: center;
+.nav.responsive li {
+    float: none;
+    display: inline;
+}
+.nav.responsive li a {
+    display: block;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
 
 
-    }
+}
 
-    /* SMALL SCREEN RESP NAV */
 
-    /* Remove margins and padding from the list */
+/* SMALL SCREEN RESP NAV */
 
-    .nav {
-        padding: 20px 0 0 15px;
-    }
+/* Remove margins and padding from the list */
 
-    .nav  ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #cc9966;
+.nav {
+    padding: 20px 0 0 0;
+}
 
-    }
+.nav  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #392613;
 
-    /* Float the list items side by side */
-    .nav ul li {
-        float: left;
-        display: none;
+}
 
-    }
+/* Float the list items side by side */
+.nav ul li {
+    //float: left;
+    //display: none;
 
-    /* Style the links inside the list items */
+}
 
-    .nav .icon {
-        display: block;
-        color: #f2f2f2;
-        margin: 6px 6px;
-        text-decoration: none;
-        transition: 0.3s;
-        font-size: 25px;
-        background-color: inherit;
-    }
+/* Style the links inside the list items */
+
+.nav .icon {
+    display: block;
+    color: #f2f2f2;
+    margin: 6px 6px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+    background-color: inherit;
+}
+
+
+.main-nav {
+    position: absolute;
+    top: -300%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.main-nav--open {
+    top: 100%;
+}
 
 
 /* ABOUT US */
 
-    .aboutus {
-        text-align: left;
-        font-size: 1em;
-        padding: 0 10px;
-    }
+.aboutus {
+    text-align: left;
+    font-size: 1em;
+    padding: 0 10px;
+}
 
-    .aboutus p {
-        font-family: bodyfont;
-    }
+.aboutus p {
+    font-family: bodyfont;
+}
 
-    .aboutus h3{
-        font-family: 'Walter Turncoat', cursive;
-        /*font-family: titlefont;*/
-        padding: 0 20px;
-        text-align: center;
+.aboutus h3{
+    font-family: bodyfont;
+    /*font-family: titlefont;*/
+    padding: 0 20px;
+    text-align: center;
 
-    }
+}
 
-    .aboutus h2{
-        font-family: 'Walter Turncoat', cursive;
-        /*font-family: titlefont;*/
-        text-align: center;
-        padding: 0 20px;
-        color: #f2f2f2;
-        background-color: #392613;
-        font-size: 2em;
-    }
+.aboutus h2{
+    font-family: titlefont;
+    /*font-family: titlefont;*/
+    text-align: center;
+    padding: 0 20px;
+    color: #f2f2f2;
+    background-color: #392613;
+    font-size: 2em;
+}
 
 /* FUDGE */
-    .products {
-        text-align: left;
-        font-size: 1.2em;
-        padding: 0 10px;
-    }
+.products {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
 
-    .products p {
-        font-family: bodyfont;
-        text-align: center;
+.products p {
+    text-align: center;
+}
 
-    }
+.products h2{
+    font-family: titlefont, Patrick;
+    text-align: center;
+    padding: 0 20px;
+    color: #f2f2f2;
+    background-color: #392613;
+    font-size: 2em;
+}
 
-    .products h2{
-        font-family: titlefont, Patrick;
-        text-align: center;
-        padding: 0 20px;
-        color: #f2f2f2;
-        background-color: #392613;
-        font-size: 2em;
-    }
+.container {
+    justify-content: space-around;
+    flex-flow: row wrap;
+    display: flex;
+    flex-wrap: wrap;
+    /*do i need?
+    display: -ms-flexbox;
+    -ms-flex-wrap: wrap;
+    -ms-flex-direction: row;
+    -webkit-flex-flow: row wrap;
+    display: -webkit-box;  */
 
-    .container {
-        display: -ms-flexbox;
-        -ms-flex-wrap: wrap;
-        -ms-flex-direction: column;
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        display: -webkit-box;
-        display: flex;
-    }
-    .container div {
-        -ms-flex: auto;
-        flex: auto;
-        width: 200px;
-        margin: 0;
-    }
-    .container div img {
-        width: 100%;
-        height: auto;
-    }
 
-    .container div p {
-        font-size: 1.5em;
-        font-family: titlefont, Patrick;
-        text-align: center;
-        text-decoration: underline;
-        color: #392613;
-    }
+
+}
+
+.container a {
+    width: 100%;
+    margin: 0;
+}
+
+.container a img {
+    width: 100%;
+}
+
+.container a p {
+    font-size: 1.6em;
+    font-family: titlefont, Patrick;
+    text-align: center;
+    color: #392613;
+    margin: 0;
+
+}
+
 
 /* PRODUCT PAGE - FUDGE */
 
-    .product-page {
-        text-align: left;
-        font-size: 1.2em;
-        padding: 0 10px;
-    }
+.product-page {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
 
-    .product-page p {
-        font-family: bodyfont;
-    }
+.product-page p {
+    font-family: bodyfont;
+}
 
-    .product-page h2{
-        font-family: titlefont, Patrick;
-        text-align: center;
-        padding: 0 20px;
-        background-color: #2b0306;
-    }
+.product-page h2{
+    font-family: titlefont, Patrick;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #392613;
+}
 
-    .product-img {
-        width: 100%;
-        height: auto;
-    }
+.product-img {
+    width: 100%;
+    height: auto;
+}
 
 /* SELECT BOX ON PRODUCT PAGE */
 
-    .container-product h3 {
-        font-family: titlefont, Patrick;
-        text-align: center;
-    }
-    .select-style {
-        margin-left: 10px;
-        margin-bottom: 20px;
-        border: 1px solid #4b0a0c;
-        width: 90%;
-        border-radius: 3px;
-        overflow: hidden;
-        background: #fafafa 90% 50%;
+.container-product h3 {
+    font-family: titlefont, Patrick;
+    text-align: center;
+}
+.select-style {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #392613;
+    width: 90%;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa 90% 50%;
 
-    }
+}
 
-    .select-style select {
-        padding: 20px 32px;
-        width: 150%;
-        border: none;
-        box-shadow: none;
-        background: transparent;
-        background-image: none;
-        -webkit-appearance: none;
-        font-size: 0.9em;
-    }
+.select-style select {
+    padding: 20px 32px;
+    width: 150%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    font-size: 0.9em;
+}
 
-    .select-style select:focus {
-        outline: none;
-    }
+.select-style select:focus {
+    outline: none;
+}
 
 /* BUTTON */
-    .button {
-        width: 90%;
-        margin-left: 10px;
-        margin-bottom: 40px;
-        background-color: #2b0306;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-    }
+.button {
+    width: 90%;
+    margin-bottom: 40px;
+    background-color: #392613;
+    padding: 16px 32px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
 
- /* EVENTS */
+.button-purchase {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #e6ccb3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    cursor: pointer;
+}
 
-    .event-image{
-        background-image: url("../images/event.jpg");
-    }
+.button-home {
+    width: 90%;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,.4);
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-family: titlefont;
+}
 
-    .event2-image{
-        background-image: url("../images/event.jpg");
-    }
+/* FUDGE AND CHOCOLATE ON HOMEPAGE*/
 
+.button-product {
+    width: 90%;
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    padding: 30px 20px;
+    margin-top: 30%;
+    font-family: titlefont;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+/* EVENTS */
 
 
 .events {
@@ -624,19 +803,11 @@ a.btn:hover{
 
 .events p {
     font-family: bodyfont;
-}
-
-.events h3{
-    font-family: 'Walter Turncoat', cursive;
-    /*font-family: titlefont;*/
-    padding: 0 20px;
-    text-align: center;
-
+    padding: 0 5px;
 }
 
 .events h2{
-    font-family: 'Walter Turncoat', cursive;
-    /*font-family: titlefont;*/
+    font-family: titlefont;
     text-align: center;
     padding: 0 20px;
     color: #f2f2f2;
@@ -644,85 +815,113 @@ a.btn:hover{
     font-size: 2em;
 }
 
+.events h3 {
+    font-family: titlefont;
+    text-align: center;
+    color: #392613;
+    font-size: 2em;
+}
+
+
 /* CONTACT PAGE */
 
-    .contact-page {
-        text-align: left;
-        font-size: 1.2em;
-        padding: 0 10px;
-    }
+.contact-page {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
 
-    .contact-page p {
-        font-family: bodyfont;
-    }
+.contact-page p {
+    font-family: bodyfont;
+}
 
-    .contact-page h2{
-        font-family: titlefont, Patrick;
-        text-align: center;
-        padding: 0 20px;
-    }
+.contact-page h2{
+    font-family: titlefont, Patrick;
+    text-align: center;
+    padding: 0 20px;
+}
 
-    .contact-page ul li {
-        text-decoration: none;
-        color: black;
-    }
+.contact-page ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
 
-    /* CONTACT - CONTACT FORM */
-
-
-    #contact-area {
-        flex-direction: column;
-        width: 250px;
-        margin-top: 25px;
-        padding-left: 10px;
-    }
-
-    #contact-area input, #contact-area textarea {
-        padding: 5px;
-        width: 250px;
-        font-family: Helvetica, sans-serif;
-        font-size: 1.5em;
-        margin: 0 0 10px 0;
-        border: 2px solid #cc9966;
-    }
-
-    #contact-area textarea {
-        height: 90px;
-    }
-
-    #contact-area textarea:focus, #contact-area input:focus {
-        border: 2px solid #900;
-    }
-
-    #contact-area input.submit-button {
-        width: 100px;
-        float: right;
-    }
-
-    label {
-        float: left;
-        margin-right: 15px;
-        width: 100px;
-        padding-top: 5px;
-        font-size: 1em;
-        font-family: titlefont, Patrick;
-    }
+.contact-us ul {
+    color:#392613;
+}
 
 
 
+/* CONTACT - CONTACT FORM */
+
+
+#contact-area {
+    flex-direction: column;
+    width: 250px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+#contact-area input, #contact-area textarea {
+    padding: 5px;
+    width: 250px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+    border: 2px solid #cc9966;
+}
+
+#contact-area textarea {
+    height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+    border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+    width: 220px;
+    float: right;
+}
+
+.contact {
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+    padding-top: 5px;
+    font-size: 1em;
+    font-family: titlefont, Patrick;
+}
 
 
 
-/********* MEDIA QUERIES ********/
+
+
+
+/*********   MEDIA QUERIES   ********/
 
 
 
 
 @media screen and (min-width: 500px) {
 
+    /* CHECKBOX */
+
+    .container-product {
+        margin-left: 60px;
+    }
+/* FORM - GIFT PAGE */
+    .gift {
+        flex-flow: row wrap;
+    }
+
+
+    .fudge-purchase {
+        width: 50%;
+    }
+
     header {
         background-image: url(../images/fudge2_1200.jpg);
-        width: 100%;
         height: 520px;
     }
 
@@ -732,6 +931,7 @@ a.btn:hover{
         flex-flow: row wrap;
         width: 100%;
     }
+
 
     .content h2 {
         padding: 0;
@@ -743,8 +943,7 @@ a.btn:hover{
 
 
     .content {
-        height: 300px;
-        /*border: 0 10px;*/
+        height: 430px;
     }
 
     section.main a {
@@ -754,50 +953,23 @@ a.btn:hover{
         margin: 0;
         height: 300px;
     }
-/* currently showing at mobile
-    .fudge-image {
-        display: unset;
-        background: #e6ccb3 url("../images/fudge-back.jpeg") no-repeat;
+
+    /* HOMEPAGE - buttons */
+
+    .button-product {
+        margin-top: 20%;
+        font-size: 2.5em;
     }
 
-    .choco-image {
-        display: unset;
-        background-image:url("../images/chocolate_back.jpeg");
+    /* FUDGE 500PX */
+    .container a {
+        width: 40%;
     }
-  */
-
-    /* HOMEPAGE - CHOCOLATE */
-
-    .chocolate {
-        background-color: #ac7339;
-        /*  background-image: url("../images/fudge-back.jpeg"); */
+    .container a p {
+        font-size: 1.5em;
     }
 
-    /*
-        .image {
-            display: unset;  /* opposite of display none */
- /*       width: 50%;
-        height: 300px;
-        border: none;
-    }*/
-
-    section.products p {
-        padding: 10px 40px;
-    }
-
-    .container div {
-        width: 250px;
-    }
-
-
-
-/* FUDGE 500PX */
-    .container div p {
-        font-size: 2em;
-
-    }
-
-/* DROP DOQWN MENU/BUTTON ON FUDGE BUYING PAGE - 500PX */
+    /* DROP DOWN MENU/BUTTON ON FUDGE BUYING PAGE - 500PX */
 
     .select-style {
         margin-left: 100px;
@@ -809,7 +981,22 @@ a.btn:hover{
         margin-left: 100px;
     }
 
+    /* EVENTS */
 
+
+    .events p {
+        padding: 0 60px;
+    }
+
+
+    /* CONTACT US */
+    .contact-us{
+        padding-right: 20px;
+    }
+
+    .contact-page {
+        margin-left: 20%;
+    }
 
 
 }
@@ -818,7 +1005,7 @@ a.btn:hover{
 @media screen and (min-width: 670px) {
 
     em {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
 
@@ -836,7 +1023,13 @@ a.btn:hover{
         font-size: 1em;
     }
 
-/* HOMEPAGE - ABOUT US */
+    /* HOMEPAGE */
+
+    .choco-image {
+        border-left: 0.3em solid #392613;
+    }
+
+    /* HOMEPAGE - ABOUT US */
 
     .content h3 {
         font-size: 1.5em;
@@ -846,41 +1039,44 @@ a.btn:hover{
         font-size: 1.3em;
         padding: 0 90px 0 90px;
     }
-
-    .shop{
-            padding:0 10px;
-        }
-
+    .about {
+        height: 450px;
+    }
 
 
-/* NAVIGATION */
+    /* LOGO*/
+
+    header a.logo {
+        width: 15%;
+        max-width: 150px;
+    }
+
+
+
+    /* NAVIGATION */
 
     .nav ul li {
         display: block;
-        font-size: 1.2em;
+        font-size: 1em;
 
     }
     .nav{
-        position: absolute;
-        width: 100%;
-        padding-left: 0;
-        background-color:#392613;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
     }
 
     .nav .icon-wrapper {
         display: none; /* dont show the hamburger icon*/
     }
 
-    .nav  ul {
-        list-style-type: none;
-        margin: 0;
-        padding-left: 50px;
-        padding-top: 40px;
-        overflow: hidden;
-        background-color: #392613;
-        text-decoration: none;
+    .nav ul li a:hover {
+        background-color: rgba(255,255,255,.1);
 
     }
+
     .nav ul li a {
         text-decoration: none;
         font-family: titlefont, Patrick;
@@ -892,18 +1088,29 @@ a.btn:hover{
 
     section.aboutus p {
         padding: 0 150px;
+        font-size: 1.3em;
     }
 
 
 
-/* FUDGE - PRODUCTS */
+    /* FUDGE - PRODUCTS */
 
     .products p {
         font-size: 1.5em;
     }
+    .products h3 {
+        font-size: 2em;
+    }
 
-    .container-product h3 {
-        font-size: 2.5em
+    .container a {
+        width: 30%;
+    }
+    .container a p {
+        font-size: 1.1em;
+    }
+    /* NOT ON MOBILE */
+    .container a p:hover{
+        color: #cc9966;
     }
 
     /* DROP DOWN MENU/BUTTON ON FUDGE BUYING PAGE - 670PX */
@@ -920,13 +1127,24 @@ a.btn:hover{
     }
 
     /* BUTTON */
+
     .button {
         width: 50%;
         margin-left: 25%;
         font-size: 25px;
+    }
+
+    .button-purchase {
+        font-size: 1.4em;
 
     }
 
+    /* EVENTS */
+
+    .events p {
+        padding: 0 150px;
+        font-size: 1.3em;
+    }
     /* CONTACT */
 
     .contact-page {
@@ -938,6 +1156,7 @@ a.btn:hover{
 
     .contact-us {
         flex-direction: row;
+        padding-right: 30px;
     }
 
     #contact-area {
@@ -950,8 +1169,13 @@ a.btn:hover{
         font-size: 1.4em;
     }
 
+    #contact-area input.submit-button {
+        width: 180px;
+        margin-right: 110px;
+    }
+
     label {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 
     /* FOOTER */
@@ -962,12 +1186,14 @@ a.btn:hover{
     footer {
         display: flex;
         flex-direction: row;
+
     }
+
 
     footer .footer {
         flex: auto;
         width: 33%;
-        height: 170px;
+        height: 210px;
     }
 
 
@@ -975,27 +1201,91 @@ a.btn:hover{
 }
 
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 830px) {
 
-/* HOMEPAGE */
+    /* CHECKBOXES */
+    .fudge-purchase {
+        width: 32%;
+    }
 
-    .fudge-image {
-        background: #e6ccb3 url("../images/fudge_825.jpg") no-repeat;
+    /* BUTTONS */
+
+    .button-home {
+        width: 50%;
+    }
+
+    .button-product {
+        margin-top: 10%;
+        font-size: 3em;
+    }
+
+
+    /* HOMEPAGE */
+
+    .about {
+        height: 430px;
+    }
+
+    .about:hover {
+        background-color:rgba(230, 204, 179, 0.85);
+    }
+
+    .event:hover {
+        background-color:rgba(96, 64, 32, 0.98);
+    }
+
+    .button-home:hover {
+        background-color: rgba(0,0,0,.6);
+    }
+
+    .button-product:hover {
+        background-color: rgba(0,0,0,.6);
+    }
+
+
+    /* NAVIGATION */
+
+
+    .nav ul li {
+        font-size: 1.2em;
 
     }
 
-    .choco-image {
-        background-image:url("../images/chocolate_back.jpeg");
-
-    }
-
-
-    .nav  ul {
-        padding-top: 10px;
-        padding-left: 200px;
+    /* FUDGE  */
+    .container a p {
+        font-size: 1.7em;
     }
 
 
 
+}
+
+@media screen and (min-width: 1010px) {
+
+    /* HOMEPAGE - ABOUT //// LEFT ALIGN?
+
+        .about p {
+            text-align: left;
+            padding: 0 275px;
+        }
+        /* FUDGE*/
+
+    .container a {
+        width: 21%;
+    }
+    /* NAVIGATION*/
+
+    .nav ul li {
+        font-size: 1.5em;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    /* FUDGE - CONTAINER FLEX */
+
+    .container a {
+        width: 19%;
+    }
 
 }

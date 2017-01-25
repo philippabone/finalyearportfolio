@@ -3,16 +3,16 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="" sizes="16x16" type="image/png">
-        <link rel="icon" href="" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicon16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="fav-icon32.png" sizes="32x32" type="image/png">
         <meta name="author" content="Philippa Bone">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
-        <meta name="keywords" content="Susans Farmhouse Fudge, Fudge, Chocolate, Homemade, Gluten Free, Weddings, Gifts, Shop">
-        <title>Susan's Farmhouse Fudge</title>
+        <meta name="description" content="Contact Susasn's Farmhouse Fudge by phone, email or form">
+        <meta name="keywords" content="contact, phone, email, enquiry, contact details ">
+        <title>Contact | Susan's Farmhouse Fudge</title>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/footer.css">
+
 
     </head>
 <body>
@@ -24,10 +24,10 @@
 
             <!-- Mobile  Logo -->
             <a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
-          <img src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" style="width:140px; height: 100px;">
-        </a>
+                <img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
+            </a>
 
-        <!-- Mobile Hamburger icon -->
+            <!-- Mobile Hamburger icon -->
             <div class="icon-wrapper">
                 <button onclick="myFunction()" class="icon">&#9776;</button>
             </div>
@@ -40,9 +40,11 @@
                 <li>
                     <a title=" Internal Link to About Me" href="about.html">About Us</a>
                 </li>
+
                 <li>
                     <a title="Internal Link to My Work" href="fudge.html">Fudge</a>
                 </li>
+
                 <li>
                     <a title="Internal link to my main Blog page" href="chocolate.html" >Chocolate</a>
                 </li>
@@ -87,7 +89,7 @@
     <ul>
 
         <li> <img src="images/icon/phone-call.svg" alt="Image of telephone" height="30" width ="30"> 07704333688 </li>
-        <li> <img src="images/icon/email.svg" alt="Image of email" height="30" width ="30"> : <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a></li>
+        <li> <img src="images/icon/email.svg" alt="Image of email" height="30" width ="30">  <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a></li>
 
 
     </ul>
@@ -100,15 +102,15 @@
         <form action ="https://formspree.io/philippa.bone@stu.mmu.ac.uk" method="POST">
 
             <div class="contact_field">
-                <label for="Name">Name*:</label>
+                <label class="contact" for="Name">Name*:</label>
                 <input type="text" name="Name" id="Name" required />
             </div>
             <div class="contact_field">
-                <label for="Email">Email*:</label>
+                <label class="contact" for="Email">Email*:</label>
                 <input type="email" name="_replyto" id="Email" required/>
             </div>
             <div class="contact_field">
-                <label for="Message">Message*:</label><br />
+                <label class="contact" for="Message">Message*: </label><br />
                 <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
             </div>
             <input type="submit" name="submit" value="Send" class="submit-button" />
@@ -136,23 +138,25 @@
             </ul>
         </div>
 
+
         <div class="footer center">
+            <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
+
+        </div>
+
+        <div class="footer right">
             <ul>
 
-                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email" height="30" width ="30"> lisajanerigg@hotmail.com</a> </li>
+                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
 
-                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number" height="30" width ="30"> </a>01234 567890</li>
+                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
 
 
             </ul>
         </div>
 
-
-        <div class="footer right">
-            <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
-
-        </div>
     </footer>
+
 
 
 

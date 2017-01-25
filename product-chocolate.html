@@ -3,8 +3,8 @@
 <head>
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="" sizes="16x16" type="image/png">
-        <link rel="icon" href="" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicon16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="fav-icon32.png" sizes="32x32" type="image/png">
         <meta name="author" content="Philippa Bone">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
@@ -12,7 +12,7 @@
         <title>Susan's Farmhouse Fudge</title>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="css/flickity.css" media="screen">
+
     </head>
 <body>
 
@@ -23,7 +23,7 @@
 
             <!-- Mobile  Logo -->
             <a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
-                <img src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" style="width:140px; height: 100px;">
+                <img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
             </a>
 
             <!-- Mobile Hamburger icon -->
@@ -39,9 +39,11 @@
                 <li>
                     <a title=" Internal Link to About Me" href="about.html">About Us</a>
                 </li>
+
                 <li>
                     <a title="Internal Link to My Work" href="fudge.html">Fudge</a>
                 </li>
+
                 <li>
                     <a title="Internal link to my main Blog page" href="chocolate.html" >Chocolate</a>
                 </li>
@@ -77,13 +79,9 @@
 
         <h2> Fancy some scrumptious chocolate?</h2>
 
-        <p>  All our chocolate ......<br> Gluten Free and Vegetarian.</p>
+        <p><em>Please choose the type of chocolate and quantity from the options below </em> </p>
 
-        <p> Please choose the type of chocolate and quantity from the options below</p>
-
-        <p> Fudge Gift Boxes  <a href="giftbox.html" title="Internal link to Gift Box Page"> are available </a> </p>
-
-        <p> price info</p>
+        <p> <em>£3.50 per 150g Bag </em></p>
 
 
         <!-- OPTIONS -->
@@ -93,9 +91,9 @@
             <div class="select-style">
                 <select>
                     <option value="type">Please Select a Chocolate</option>
-                    <option value="vanilla">Milk Chocolate</option>
-                    <option value="chocolate">White Chocolate</option>
-                    <option value="cappuccino">Dark Chocolate</option>
+                    <option value="vanilla">Milk Chocolate - 150g</option>
+                    <option value="chocolate">White Chocolate - 150g</option>
+                    <option value="cappuccino">Dark Chocolate - 150g</option>
 
                 </select>
             </div>
@@ -107,40 +105,26 @@
             <div class="select-style">
                 <select>
                     <option value="quantity">Quantity</option>
-                    <option value="saab">250g</option>
-                    <option value="mercedes">500g</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
 
                 </select>
+
             </div>
             <!-- BUTTON -->
             <input type="button" class="button" value="Add to Bag">
 
         </div>
 
-        <!-- PICTURE - CAN IT CHANGE DEPENDING ON SELECTION?-->
+        <p> If you require a larger order please <a href="contact.html" title="Internal link to Susans Farmhouse Contact Page">contact us</a> as discounts may apply</p>
 
 
-        <div class="carousel"
-             data-flickity='{ "wrapAround": true }'>
-            <div class="carousel-cell">
-                `<img src="images/fudge-back.jpeg">
-            </div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-        </div>
-        <!--
 
-                <div class="container">
-                    <div>
-
-                        <img src="images/fudge5.jpg" alt="">
-                    </div>
-
-                </div> -->
     </section>
-
 
     <!-- FOOTER -->
 
@@ -156,23 +140,27 @@
             </ul>
         </div>
 
+
         <div class="footer center">
+            <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
+
+        </div>
+
+        <div class="footer right">
             <ul>
 
-                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email" height="30" width ="30"> lisajanerigg@hotmail.com </li>
+                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
 
-                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number" height="30" width ="30"> 01234 567890</li>
+                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
 
 
             </ul>
         </div>
 
-
-        <div class="footer right">
-            <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
-
-        </div>
     </footer>
+
+
+
 </div>
 
 <!-- JAVASCRIPT FOR NAV -->
@@ -192,7 +180,6 @@
 </script>
 
 
-<script src="css/flickity.pkgd.js"> </script>
 
 
 

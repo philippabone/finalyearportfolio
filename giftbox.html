@@ -3,16 +3,21 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="icon" href="" sizes="16x16" type="image/png">
-        <link rel="icon" href="" sizes="32x32" type="image/png">
+        <link rel="icon" href="favicon16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="fav-icon32.png" sizes="32x32" type="image/png">
         <meta name="author" content="Philippa Bone">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
-        <meta name="keywords" content="Susans Farmhouse Fudge, Fudge, Chocolate, Homemade, Gluten Free, Weddings, Gifts, Shop">
-        <title>Susan's Farmhouse Fudge</title>
+        <meta name="description" content="Gift Boxes | Made with our homemade fudge">
+        <meta name="keywords" content="Gift Boxes, fudge, vanilla, chocolate, orange, cappacino, baileys, maple and pecan, salted caramel, vegetarian, gluten free">
+        <title>Gift Boxes | Susan's Farmhouse Fudge</title>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" href="css/flickity.css" media="screen">
+
+
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
     </head>
 <body>
 
@@ -23,11 +28,10 @@
 
             <!-- Mobile  Logo -->
             <a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
-                <img src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" style="width:140px; height: 100px;">
+                <img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
             </a>
 
-
-        <!-- Mobile Hamburger icon -->
+            <!-- Mobile Hamburger icon -->
             <div class="icon-wrapper">
                 <button onclick="myFunction()" class="icon">&#9776;</button>
             </div>
@@ -40,9 +44,11 @@
                 <li>
                     <a title=" Internal Link to About Me" href="about.html">About Us</a>
                 </li>
+
                 <li>
                     <a title="Internal Link to My Work" href="fudge.html">Fudge</a>
                 </li>
+
                 <li>
                     <a title="Internal link to my main Blog page" href="chocolate.html" >Chocolate</a>
                 </li>
@@ -57,7 +63,6 @@
             </ul>
 
         </nav>
-
 
 
         <div class="hero">
@@ -80,105 +85,131 @@
 
         <p>  All our fudges are home made with farm fresh cream, real butter and British sugar.<br> Gluten Free and Vegetarian.</p>
 
-        <p> Our Gift Boxes are made up of .....</p>
+        <p> Our Gift Boxes are made up of different types of fudge of your choice - perfect as gifts</p>
 
         <p> Individual fudge bags  <a title=" Internal link to Fudge Product Page" href="product-fudge.html"> are available</a></p>
 
-        <p> price info</p>
+        <p> £6 - 200g </p>
+
+        <p> <em> Select 4 types of fudge </em></p>
 
 
         <!-- OPTIONS -->
         <div class="container-product">
 
             <h3> Purchase</h3>
-              <div class="select-style">
-                <select>
-                    <option value="type">Please Select Fudge One</option>
-                    <option value="vanilla">Vanilla</option>
-                    <option value="chocolate">Chocolate</option>
-                    <option value="cappuccino">Cappuccino</option>
-                    <option value="choco-orange">Chocolate Orange</option>
-                    <option value="maple-pecan">Maple and Pecan</option>
-                    <option value="seasalt-caramel">Sea Salt Caramel</option>
-                    <option value="stem-gigner">Stem Ginger</option>
-                    <option value="baileys">Baileys</option>
-                </select>
-            </div>
+            <form class="gift" action="">
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Vanilla" class="regular-checkbox big-checkbox"> Vanilla
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Chocolate" class="regular-checkbox big-checkbox"> Chocolate
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Cappuccino" class="regular-checkbox big-checkbox"> Cappuccino
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Chocolate Orange" class="regular-checkbox big-checkbox"> Chocolate Orange
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Maple and Pecan" class="regular-checkbox big-checkbox"> Maple and Pecan
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Sea Salt Caramel" class="regular-checkbox big-checkbox"> Sea Salt Caramel
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Stem Ginger" class="regular-checkbox big-checkbox"> Stem Ginger
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Baileys" class="regular-checkbox big-checkbox"> Baileys
+                </label>
+                <label class="fudge-purchase">
+                    <input type="checkbox" name="fudge" value="Rum and Raisin" class="regular-checkbox big-checkbox"> Rum and Raisin
+                </label>
+            </form>
 
-            <div class="select-style">
-                <select>
-                    <option value="type">Please Select Fudge Two</option>
-                    <option value="vanilla">Vanilla</option>
-                    <option value="chocolate">Chocolate</option>
-                    <option value="cappuccino">Cappuccino</option>
-                    <option value="choco-orange">Chocolate Orange</option>
-                    <option value="maple-pecan">Maple and Pecan</option>
-                    <option value="seasalt-caramel">Sea Salt Caramel</option>
-                    <option value="stem-gigner">Stem Ginger</option>
-                    <option value="baileys">Baileys</option>
-                </select>
-            </div>
 
             <!-- BUTTON -->
             <input type="button" class="button" value="Add to Bag">
 
         </div>
 
-        <!-- PICTURE - CAN IT CHANGE DEPENDING ON SELECTION?-->
+    <!--    <div class="images">
+
+                <img class="img-product" src="images/carousell/gift.jpg">
 
 
-        <div class="carousel"
-             data-flickity='{ "wrapAround": true }'>
-            <div class="carousel-cell">
-                `<img src="images/fudge-back.jpeg">
+
+                <img class="img-product" src="images/carousell/choc.jpeg">
+
+
+
+                <img class="img-product" src="images/carousell/bail.jpeg">
+
+
+                <img class="img-product" src="images/carousell/m-p.jpeg">
+
+        </div> -->
+
+
+
+       <!-- CAROUSEL -->
+
+
+        <div class="owl-carousel owl-theme">
+            <div>
+                <img src="images/carousell/gift.jpg">
             </div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-        </div>
-        <!--
 
-                <div class="container">
-                    <div>
+            <div>
+                <img src="images/carousell/choc.jpeg">
+            </div>
 
-                        <img src="images/fudge5.jpg" alt="">
-                    </div>
+            <div>
+                <img src="images/carousell/bail.jpeg">
+            </div>
 
-                </div> -->
+            <div>
+                <img src="images/carousell/m-p.jpeg">
+            </div>
+
+
+        </div> -->
     </section>
 
 
 
+    <!-- FOOTER -->
+
     <footer>
         <div class="footer left">
             <ul>
-                <li> link 1 </li>
-                <li> link 1 </li>
-                <li> link 1 </li>
-                <li> link 1 </li>
-                <li> link 1 </li>
+                <li> <a title=" Internal link to Home Page" href="index.html">Home</a> </li>
+                <li> <a title=" Internal link to Home Page" href="about.html">About</a> </li>
+                <li> <a title=" Internal link to Home Page" href="fudge.html">Fudge</a> </li>
+                <li> <a title=" Internal link to Home Page" href="chocolate.html">Chocolate</a> </li>
+                <li> <a title=" Internal link to Home Page" href="events.html">Events</a> </li>
+                <li> <a title=" Internal link to Home Page" href="contact.html">Contact</a> </li>
             </ul>
         </div>
+
 
         <div class="footer center">
-            <ul>
-
-                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email" height="30" width ="30"> lisajanerigg@hotmail.com</a> </li>
-
-                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number" height="30" width ="30"> </a>01234 567890</li>
-
-
-            </ul>
-        </div>
-
-
-        <div class="footer right">
             <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
 
         </div>
 
-        <!--	&copy; Susan's Farmhouudgese -->
+        <div class="footer right">
+            <ul>
+
+                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
+
+                <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
+
+
+            </ul>
+        </div>
+
     </footer>
 
 </div>
@@ -199,8 +230,35 @@
     }
 </script>
 
+<!-- Carousel -->
 
-<script src="css/flickity.pkgd.js"> </script>
+<script src="js/jquery.min.js"></script>
+
+<script src="js/owl.carousel.min.js"></script>
+
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+</script>
 
 
 

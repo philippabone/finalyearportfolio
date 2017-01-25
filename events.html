@@ -3,8 +3,8 @@
 
 	<head>
 		<meta charset="utf-8">
-		<link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
-		<link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+		<link rel="icon" href="favicon16.png" sizes="16x16" type="image/png">
+		<link rel="icon" href="fav-icon32.png" sizes="32x32" type="image/png">
 		<meta name="author" content="Philippa Bone">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
@@ -12,6 +12,9 @@
 		<title>Susan's Farmhouse Fudge</title>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- OWL CAROUSEL -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	</head>
 <body>
 
@@ -20,13 +23,12 @@
 
 		<nav role="navigation" class="nav" id="topNav">
 
-
 			<!-- Mobile  Logo -->
 			<a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
-				<img src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" style="width:140px; height: 100px;">
+				<img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
 			</a>
 
-        <!-- Mobile Hamburger icon -->
+			<!-- Mobile Hamburger icon -->
 			<div class="icon-wrapper">
 				<button onclick="myFunction()" class="icon">&#9776;</button>
 			</div>
@@ -39,9 +41,11 @@
 				<li>
 					<a title=" Internal Link to About Me" href="about.html">About Us</a>
 				</li>
+
 				<li>
 					<a title="Internal Link to My Work" href="fudge.html">Fudge</a>
 				</li>
+
 				<li>
 					<a title="Internal link to my main Blog page" href="chocolate.html" >Chocolate</a>
 				</li>
@@ -58,7 +62,6 @@
 		</nav>
 
 
-
 		<div class="hero">
 			<!--			<img src="images/logo/logotry1%20copy.png">
                         <div class="house">
@@ -72,27 +75,50 @@
 	<!-- EVENTS -->
 	
 	<section class="events">
-	
-<h2> Events</h2>
 
-<p> Come find us at county shows and fairs up and down the country and taste our wonderful homeade fudge and chocolate</p>
-		<p> Please message us if you would like more details</p>
+<h2> Events and Weddings </h2>
 
-		<a class="link" title="More about the fudge at Susan's Farmhouse Fudge" href="fudge.html">
-			<div class="content event-image">
-			</div>
-		</a>
+<p> Come find us at county shows and fairs up and down the country and taste our wonderful homemade fudge and chocolate</p>
 
-		<h2> Weddings</h2>
-
-		<p> We also do other events such as weddings, our fudge makes perfect favours and .....</p>
-			
+		<p> Please  <a href="contact.html" title="Internal link to Susans Farmhouse Contact Page">contact us</a> if you would like more details</p>
 
 
-<!-- photos of shows needed -->
+		<h3> Weddings</h3>
 
-		</section>
+		<p> We also do other events such as weddings, our fudge makes perfect favours and they can be beautiful unique gifts</p>
+		<p> These are special orders so please <a href="contact.html" title="Internal link to Susans Farmhouse Contact Page">contact us</a> for furthur information</p>
 
+
+	<!--	<img src="images/lisa-show.jpg"> -->
+
+	</section>
+
+	<div class="owl-carousel owl-theme">
+
+		<div>
+			<img src="images/carousell/wedding2-min.jpeg" alt="Example wedding favour box with a ribbon">
+			<p class="text-carousel"> Wedding Favour Example</p>
+		</div>
+
+		<div>
+			<img src="images/carousell/chocolate-min.jpeg" alt="Susans chocolate fudge">
+			<p class="text-carousel"> Chocolate</p>
+		</div>
+
+
+		<div>
+			<img src="images/carousell/baileys-min.jpeg" alt="Susans baileys fudge">
+			<p class="text-carousel"> Baileys</p>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	<!-- FOOTER -->
 
 	<footer>
 		<div class="footer left">
@@ -106,25 +132,25 @@
 			</ul>
 		</div>
 
+
 		<div class="footer center">
+			<p>Gregson's Farm, Samlesbury, PR5 0UH</p>
+
+		</div>
+
+		<div class="footer right">
 			<ul>
 
-				<li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email" height="30" width ="30"> lisajanerigg@hotmail.com </li>
+				<li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
 
-				<li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number" height="30" width ="30"> 01234 567890</li>
+				<li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
 
 
 			</ul>
 		</div>
 
-
-		<div class="footer right">
-			<p>Gregson's Farm, Samlesbury, PR5 0UH</p>
-
-		</div>
-
-		<!--	&copy; Susan's Farmhouudgese -->
 	</footer>
+
 
 </div>
 
@@ -144,6 +170,37 @@
     }
 
 </script>
+
+<!-- Carousel -->
+
+<script src="js/jquery.min.js"></script>
+
+<script src="js/owl.carousel.min.js"></script>
+
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+</script>
+
 		</div>
 
 
