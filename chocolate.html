@@ -16,20 +16,29 @@
 <body>
 
 <div id ="page">
-	<header role="banner" id="skiptotop">
-		<nav role="navigation" class="nav" id="topNav">
 
+	<!--  header -->
+	<header class="header" role="banner" id="skiptotop">
+
+
+		<div class="header-nav">
 			<!-- Mobile  Logo -->
 			<a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
 				<img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
 			</a>
 
 			<!-- Mobile Hamburger icon -->
-			<div class="icon-wrapper">
-				<button onclick="myFunction()" class="icon">&#9776;</button>
-			</div>
 
-			<!--Main Nav -->
+			<button class="icon menu-icon">&#9776;</button>
+
+
+		</div>
+
+
+
+
+		<!--Main Nav -->
+		<nav class="main-nav">
 			<ul>
 				<li>
 					<a title=" Internal link to Home Page" href="index.html">Home</a>
@@ -54,24 +63,30 @@
 					<a title="Internal link to Contact page" href="contact.html">Contact</a>
 				</li>
 			</ul>
-
 		</nav>
-		<a class="logo" title="Susans Farmhouse Fudge" href="index.html"><span> Susans Farmhouse Fudge</span> </a>
 
-		<div class="hero">
+	</header>
 
-			<h1>Our Chocolate</h1>
+
+
+
+	<div class="header-banner">
+		<!-- Banner Image - MOBILE -->
+		<div class="banner-img"> <img src="images/fudge-background.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire"> </div>
+		<div class="banner-img-desktop"> <img src="images/fudge2_1200.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire">	</div>
+
+
+			<h1> Our Chocolate </h1>
+
 
 		</div>
 
 
 
-	</header>
 
-
-	<section class="products">
+		<section class="products">
 	<h2> Our Delicious Chocolate Range... </h2>
-	<p> All our chocolate is made with the finest ingredients,our milk chocolate is produced from Trinitario cocoa beans, our white chocolate is produced from Sanchez cocoa beans and our dark chocolate is produced from Ecuador’s Nacional cocoa beans. </p>
+	<p> All our chocolate is made with the finest ingredients. </p>
 		<p>We have Milk, White and Dark chocolate available  </p>
 		<p> <em> Prefer Fudge? <a class="link" title="Link to fudge page" href="fudge.html">View our fudge range </a> </em></p>
 
@@ -79,7 +94,7 @@
 <div class="container">
 
 
-		<a class="link-shop" title="Link to purchase chocolate" href="product-chocolate.html">
+		<a class="link-shop" title="Link to purchase chocolate" href="product-choc/product-chocolate.html">
 			<img src="images/products/chocolate_drops-small.jpeg" alt="Susans Milk Chocolate">
 			<p> Milk Chocolate <br>£3.50 - 100g</p>
 			<span class="button-purchase"> More Details </span>
@@ -89,7 +104,7 @@
 
 
 
-		<a class="link-shop" title="Link to purchase chocolate" href="product-chocolate.html">
+		<a class="link-shop" title="Link to purchase chocolate" href="product-choc/product-chocolate2.html">
 			<img src="images/products/chocolate_drops-small.jpeg" alt="Susans Milk Chocolate">
 			<p> White Chocolate <br> £3.50 - 100g</p>
 			<span class="button-purchase"> More Details </span>
@@ -97,7 +112,7 @@
 
 
 
-		<a class="link" title="Link to purchase chocolate" href="product-chocolate.html">
+		<a class="link" title="Link to purchase chocolate" href="product-choc/product-chocolate3.html">
 			<img src="images/products/chocolate_drops-small.jpeg" alt="Susans Milk Chocolate">
 			<p> Dark Chocolate <br> £3.50 - 100g</p>
 			<span class="button-purchase"> More Details </span>
@@ -147,25 +162,30 @@
 
 </div>
 
-<!-- JAVASCRIPT FOR NAV -->
 
-<script>
+	<!-- JQUERY FOR NAV -->
 
-    function myFunction() {
-        if (window.innerWidth < 800) {
-            var x = document.getElementById("topNav");
-            if (x.className === "nav") {
-                x.className += " responsive";
-            } else {
-                x.className = "nav";
-            }
-        }
-    }
+	<script src="js/jquery.min.js"></script>
 
-</script>
+	<script>
 
-		
-		</div>
+
+        $(document).ready(function() {
+
+            var $toggleButton = $('.menu-icon');
+
+            // Hamburger button
+            $toggleButton.on('click', function() {
+                $(this).toggleClass('menu-icon--open');
+                $('.main-nav').toggleClass('main-nav--open');
+            });
+        });
+
+	</script>
+
+
+
+</div>
 
 
 	</body>

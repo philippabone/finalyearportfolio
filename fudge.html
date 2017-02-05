@@ -16,20 +16,28 @@
 <body>
 
 <div id ="page">
-	<header role="banner" id="skiptotop">
-		<nav role="navigation" class="nav" id="topNav">
+	<!--  header -->
+	<header class="header" role="banner" id="skiptotop">
 
+
+		<div class="header-nav">
 			<!-- Mobile  Logo -->
 			<a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
 				<img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
 			</a>
 
 			<!-- Mobile Hamburger icon -->
-			<div class="icon-wrapper">
-				<button onclick="myFunction()" class="icon">&#9776;</button>
-			</div>
 
-			<!--Main Nav -->
+			<button class="icon menu-icon">&#9776;</button>
+
+
+		</div>
+
+
+
+
+		<!--Main Nav -->
+		<nav class="main-nav">
 			<ul>
 				<li>
 					<a title=" Internal link to Home Page" href="index.html">Home</a>
@@ -54,23 +62,24 @@
 					<a title="Internal link to Contact page" href="contact.html">Contact</a>
 				</li>
 			</ul>
-
 		</nav>
-
-
-		<div class="hero">
-
-			<h1>Our Fudge </h1>
-			<!--	<h2>“A taste of the good old days!"</h2>
-
-                <a class="btn" title="Look at some of our products" href="#"> View Our Products </a> -->
-		</div>
 
 	</header>
 
 
+
+	<div class="header-banner">
+		<!-- Banner Image - MOBILE -->
+		<div class="banner-img"> <img src="images/fudge-background.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire"> </div>
+		<div class="banner-img-desktop"> <img src="images/fudge2_1200.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire">	</div>
+			<h1> Our Fudge </h1>
+
+
+		</div>
+
+
 	<section class="products">
-	<h2> Take Your Pick... </h2>
+	<h2> Fancy some of our delicious fudge? </h2>
 		<p> All our fudge is home made with farm fresh cream, real butter and British sugar.<br> Gluten Free and Vegetarian.</p>
 
 		<!--<p> <em> Prefer Chocolate? <a class="link" title="Link to chocolate page" href="chocolate.html">View our chocolate range </a> </em></p> -->
@@ -87,15 +96,21 @@
 
 
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase Vanilla Fudge" href="product-fudge/product-fudge.html">
 			<img src="images/products/vanillia_fudge-small-min.jpeg" alt="vanilla fudge">
 			<p> Vanilla Fudge <br> £3.50 - 100g</p>
 			<span class="button-purchase"> More Details </span>
 		</a>
 
 
+		<a class="link-shop" title="Link to purchase Chocolate Orange Fudge" href="product-fudge/product-fudge2.html">
+			<img src="images/products/choc_orange2-small-min.jpeg" alt="">
+			<p>Chocolate Orange <br> £3.50 - 100g </p>
+			<span class="button-purchase"> More Details </span>
+		</a>
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+
+		<a class="link-shop" title="Link to purchase Baileys Fudge" href="product-fudge/product-fudge3.html">
 		<img src="images/products/baileys2-small-min.jpeg" alt>
 			<p> Baileys Fudge <br> £3.50 - 100g </p>
 			<span class="button-purchase"> More Details </span>
@@ -103,7 +118,7 @@
 
 
 
-		 <a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		 <a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge4.html">
 		<img src="images/products/capp-small-min.jpeg" alt="">
 			 <p> Cappuccino<br> £3.50 - 100g </p>
 			 <span class="button-purchase"> More Details </span>
@@ -111,7 +126,7 @@
 
 
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge5.html">
 		<img src="images/products/chocolate2-small-min.jpeg" alt="">
 			<p>Chocolate <br> £3.50 - 100g </p>
 			<span class="button-purchase"> More Details </span>
@@ -119,7 +134,7 @@
 
 
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge6.html">
 		<img src="images/products/maple_pecan-small-min.jpeg" alt>
 			<p>Maple and Pecan <br> £3.50 - 100g </p>
 			<span class="button-purchase"> More Details </span>
@@ -127,7 +142,7 @@
 
 
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge7.html">
 		<img src="images/products/sea_salt2-small-min.jpeg" alt>
 			<p> Sea Salt Caramel <br> £3.50 - 100g </p>
 			<span class="button-purchase"> More Details </span>
@@ -135,21 +150,13 @@
 
 
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
-		<img src="images/products/choc_orange2-small-min.jpeg" alt="">
-			<p>Chocolate Orange <br> £3.50 - 100g </p>
-			<span class="button-purchase"> More Details </span>
-		</a>
-
-
-
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge8.html">
 		<img src="images/products/stem_ginger-small-min.jpeg" alt>
 			<p> Stem Ginger <br> £3.50 - 100g </p>
 			<span class="button-purchase"> More Details </span>
 		</a>
 
-		<a class="link-shop" title="Link to purchase fudge" href="product-fudge.html">
+		<a class="link-shop" title="Link to purchase fudge" href="product-fudge/product-fudge9.html">
 				<img src="images/products/rnr-small-min.jpeg" alt>
 				<p> Rum and Raisin <br> £3.50 - 100g </p>
 				<span class="button-purchase"> More Details </span>
@@ -208,22 +215,26 @@
 
 	</div>
 
-	<!-- JAVASCRIPT FOR NAV -->
 
-	<script>
+<!-- JQUERY FOR NAV -->
 
-        function myFunction() {
-            if (window.innerWidth < 800) {
-                var x = document.getElementById("topNav");
-                if (x.className === "nav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "nav";
-                }
-            }
-        }
+<script src="js/jquery.min.js"></script>
 
-	</script>
+<script>
+
+
+    $(document).ready(function() {
+
+        var $toggleButton = $('.menu-icon');
+
+        // Hamburger button
+        $toggleButton.on('click', function() {
+            $(this).toggleClass('menu-icon--open');
+            $('.main-nav').toggleClass('main-nav--open');
+        });
+    });
+
+</script>
 
 
 

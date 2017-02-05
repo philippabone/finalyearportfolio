@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="../favicon16.png" sizes="16x16" type="image/png">
+        <link rel="icon" href="../fav-icon32.png" sizes="32x32" type="image/png">
+        <meta name="author" content="Philippa Bone">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
+        <meta name="keywords" content="Susans Farmhouse Fudge, Fudge, Chocolate, Homemade, Gluten Free, Weddings, Gifts, Shop">
+        <title>Susan's Farmhouse Fudge</title>
+
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    </head>
+<body>
+
+<div id ="page">
+
+    <!--  header -->
+    <header class="header" role="banner">
+
+
+        <div class="header-nav">
+            <!-- Mobile  Logo -->
+            <a class="logo" title="Susans Farmhouse Fudge" href="../index.html" >
+                <img class="logo-image" src="../images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
+            </a>
+
+            <!-- Mobile Hamburger icon -->
+
+            <button class="icon menu-icon">&#9776;</button>
+
+
+        </div>
+
+
+
+
+        <!--Main Nav -->
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a title=" Internal link to Home Page" href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a title=" Internal Link to About Me" href="../about.html">About Us</a>
+                </li>
+
+                <li>
+                    <a title="Internal Link to My Work" href="../fudge.html">Fudge</a>
+                </li>
+
+                <li>
+                    <a title="Internal link to my main Blog page" href="../chocolate.html" >Chocolate</a>
+                </li>
+
+                <li>
+                    <a title="Internal link to my main Blog page" href="../events.html" >Events</a>
+                </li>
+
+                <li>
+                    <a title="Internal link to Contact page" href="../contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <div class="header-banner">
+        <!-- Banner Image - MOBILE -->
+        <div class="banner-img"> <img src="../images/fudge-background.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire"> </div>
+        <div class="banner-img-desktop"> <img src="../images/fudge2_1200.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire">	</div>
+
+        <h1> Our Chocolate Products</h1>
+
+
+    </div>
+
+
+
+    <section class="products">
+
+        <h2> White Chocolate</h2>
+
+        <div class="flex-container">
+
+            <div class="product-image">
+                <img src="../images/products/chocolate_drops-small.jpeg" alt="Susans Milk Chocolate">
+            </div>
+
+            <section class="product-info">
+
+                <p>Our white chocolate is produced from Sanchez cocoa beans. The delicate butter flavour is augmented by a light taste of cooked milk with the suggestion of flowers and dried figs.</p>
+
+                <p> <em>£3.50 per 150g Bag </em></p>
+
+
+                <!-- OPTIONS -->
+                <div class="container-product">
+
+                    <h3> Select Amount </h3>
+
+                    <!-- QUANTITY -->
+
+                    <div class="select-style">
+                        <select>
+                            <option value="quantity">Quantity</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+
+
+                        </select>
+
+                    </div>
+                    <!-- BUTTON -->
+                    <input type="button" class="button" value="Add to Bag">
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <p> If you require a larger order please <a href="../contact.html" title="Internal link to Susans Farmhouse Contact Page">contact us</a> as discounts may apply</p>
+
+
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer left">
+            <ul>
+                <li> <a title=" Internal link to Home Page" href="../index.html">Home</a> </li>
+                <li> <a title=" Internal link to Home Page" href="../about.html">About</a> </li>
+                <li> <a title=" Internal link to Home Page" href="../fudge.html">Fudge</a> </li>
+                <li> <a title=" Internal link to Home Page" href="../chocolate.html">Chocolate</a> </li>
+                <li> <a title=" Internal link to Home Page" href="../events.html">Events</a> </li>
+                <li> <a title=" Internal link to Home Page" href="../contact.html">Contact</a> </li>
+            </ul>
+        </div>
+
+
+        <div class="footer center">
+            <p>Gregson's Farm, Samlesbury, PR5 0UH</p>
+
+        </div>
+
+        <div class="footer right">
+            <ul>
+
+                <li><img src="../images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
+
+                <li> <img src="../images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
+
+
+            </ul>
+        </div>
+
+    </footer>
+
+
+
+</div>
+
+
+<!-- JQUERY FOR NAV -->
+
+<script src="../js/jquery.min.js"></script>
+
+<script>
+
+
+    $(document).ready(function() {
+
+        var $toggleButton = $('.menu-icon');
+
+        // Hamburger button
+        $toggleButton.on('click', function() {
+            $(this).toggleClass('menu-icon--open');
+            $('.main-nav').toggleClass('main-nav--open');
+        });
+    });
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
