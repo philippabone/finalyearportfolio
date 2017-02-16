@@ -20,7 +20,7 @@
 
     </head>
 <body>
-
+<div class = "skipnav">Skip to Content<a href="#skipnav">Skip to content</a> </div>
 <div id ="page">
 
     <!--  header -->
@@ -30,7 +30,7 @@
         <div class="header-nav">
             <!-- Mobile  Logo -->
             <a class="logo" title="Susans Farmhouse Fudge" href="index.html" >
-                <img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
+                <img class="logo-image" src="images/logo4%5B1%5D.gif" alt="Susans Farmhouse Fudge Logo" >
             </a>
 
             <!-- Mobile Hamburger icon -->
@@ -44,25 +44,25 @@
 
 
         <!--Main Nav -->
-        <nav class="main-nav">
+        <nav class="main-nav" role="navigation">
             <ul>
                 <li>
                     <a title=" Internal link to Home Page" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a title=" Internal Link to About Me" href="about.html">About Us</a>
+                    <a title=" Internal Link to About Us" href="about.html">About Us</a>
                 </li>
 
                 <li>
-                    <a title="Internal Link to My Work" href="fudge.html">Fudge</a>
+                    <a title="Internal Link to View all Fudge Products" href="fudge.html">Fudge</a>
                 </li>
 
                 <li>
-                    <a title="Internal link to my main Blog page" href="chocolate.html" >Chocolate</a>
+                    <a title="Internal link to View all Chocolate Products" href="chocolate.html" >Chocolate</a>
                 </li>
 
                 <li>
-                    <a title="Internal link to my main Blog page" href="events.html" >Events</a>
+                    <a title="Internal link to Events" href="events.html" >Events</a>
                 </li>
 
                 <li>
@@ -73,18 +73,21 @@
 
     </header>
 
-
-
+    <article id="skipnav">
+    <!-- Banner Image  -->
     <div class="header-banner">
-        <!-- Banner Image - MOBILE -->
-        <div class="banner-img"> <img src="images/fudge-background.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire"> </div>
-        <div class="banner-img-desktop"> <img src="images/fudge2_1200.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire">	</div>
+        <!-- Banner Image - Mobile  -->
+        <div class="banner-img"> <img src="images/fudge-background.jpg" alt="Susans Handmade Baileys Fudge"> </div>
+        <!-- Banner Image - Desktop  -->
+        <div class="banner-img-desktop"> <img src="images/fudge2_1200.jpg" alt="Susans Handmade Chocolate Orange Fudge"></div>
+
+
         <h1> Gift Boxes </h1>
 
 
     </div>
 
-        <section class="products">
+        <section class="products" role="main">
 
         <h2> Purchase Our Gift Boxes </h2>
 
@@ -92,7 +95,7 @@
 
         <p> Our Gift Boxes are made up of different types of fudge of your choice - perfect as gifts</p>
 
-        <p> Individual fudge bags  <a title=" Internal link to Fudge Product Page" href="product-fudge.html"> are available</a></p>
+        <p> Individual fudge bags  <a title=" Internal link to Fudge Product Page" href="fudge.html"> are available</a></p>
 
         <p> £6 - 200g </p>
 
@@ -103,7 +106,7 @@
         <div class="container-product">
 
             <h3> Purchase</h3>
-            <form class="gift" action="">
+            <form class="gift" action="#">
                 <label class="fudge-purchase">
                     <input type="checkbox" name="fudge" value="Vanilla" class="regular-checkbox big-checkbox"> Vanilla
                 </label>
@@ -139,62 +142,55 @@
 
         </div>
 
-    <!--    <div class="images">
-
-                <img class="img-product" src="images/carousell/gift.jpg">
-
-
-
-                <img class="img-product" src="images/carousell/choc.jpeg">
-
-
-
-                <img class="img-product" src="images/carousell/bail.jpeg">
-
-
-                <img class="img-product" src="images/carousell/m-p.jpeg">
-
-        </div> -->
-
-
 
        <!-- CAROUSEL -->
 
 
         <div class="owl-carousel owl-theme">
             <div>
-                <img src="images/carousell/gift.jpg">
+                <img src="images/carousell/gift.jpg" alt="Fudge Gift Box Example">
+                <p class="text-carousel"> Our Gift Box</p>
             </div>
 
             <div>
-                <img src="images/carousell/choc.jpeg">
+                <a href="product-fudge/product-fudge7.html" title="link to purchase chocolate fudge">
+                <img src="images/carousell/fudge-gift.jpeg" alt="Sea salt caramel fudge">
+                <p class="text-carousel"> Sea Salt Caramel Fudge</p>
+                </a>
             </div>
 
             <div>
-                <img src="images/carousell/bail.jpeg">
+                <a href="product-fudge/product-fudge9.html" title="link to purchase chocolate fudge">
+                <img src="images/carousell/fudge-gift2.jpeg" alt="rum and raisin fudge">
+                <p class="text-carousel"> Rum and Raisin Fudge</p>
+                </a>
             </div>
 
             <div>
-                <img src="images/carousell/m-p.jpeg">
+                <a href="product-fudge/product-fudge5.html" title="link to purchase chocolate fudge">
+                    <img src="images/carousell/fudge-gift3.jpeg" alt="chocolate fudge">
+                    <p class="text-carousel"> Chocolate Fudge</p>
+                </a>
             </div>
 
 
-        </div> -->
+        </div>
     </section>
+    </article>
 
 
 
     <!-- FOOTER -->
 
-    <footer>
+    <footer role="contentinfo">
         <div class="footer left">
             <ul>
-                <li> <a title=" Internal link to Home Page" href="index.html">Home</a> </li>
-                <li> <a title=" Internal link to Home Page" href="about.html">About</a> </li>
-                <li> <a title=" Internal link to Home Page" href="fudge.html">Fudge</a> </li>
-                <li> <a title=" Internal link to Home Page" href="chocolate.html">Chocolate</a> </li>
-                <li> <a title=" Internal link to Home Page" href="events.html">Events</a> </li>
-                <li> <a title=" Internal link to Home Page" href="contact.html">Contact</a> </li>
+                <li><a title=" Internal link to Home Page" href="index.html">Home</a></li>
+                <li><a title=" Internal Link to About Us" href="about.html">About Us</a></li>
+                <li><a title="Internal Link to View all Fudge Products" href="fudge.html">Fudge</a></li>
+                <li><a title="Internal link to View all Chocolate Products" href="chocolate.html" >Chocolate</a></li>
+                <li><a title="Internal link to Events" href="events.html" >Events</a></li>
+                <li><a title="Internal link to Contact page" href="contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -207,7 +203,7 @@
         <div class="footer right">
             <ul>
 
-                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
+                <li><img src="images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto:lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
 
                 <li> <img src="images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
 

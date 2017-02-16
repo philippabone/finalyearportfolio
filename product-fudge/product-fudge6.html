@@ -7,9 +7,9 @@
     <link rel="icon" href="../fav-icon32.png" sizes="32x32" type="image/png">
     <meta name="author" content="Philippa Bone">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Susan's Farmhouse Fudge - Hand Made Fudge and Chocolate with a taste of the good old days">
-    <meta name="keywords" content="Susans Farmhouse Fudge, Fudge, Chocolate, Homemade, Gluten Free, Weddings, Gifts, Shop">
-    <title>Susan's Farmhouse Fudge</title>
+    <meta name="description" content="Susan's Farmhouse Maple and Pecan Fudge, home made with farm fresh cream, real butter and british sugar.">
+    <meta name="keywords" content="Susans Farmhouse Fudge, Fudge, maple, pecan, Homemade, Gluten Free, Shop, maple, pecan, vegetarian">
+    <title>Maple & Pecan Fudge | Susan's Farmhouse Fudge</title>
 
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 
@@ -33,7 +33,7 @@
         <div class="header-nav">
             <!-- Mobile  Logo -->
             <a class="logo" title="Susans Farmhouse Fudge" href="../index.html" >
-                <img class="logo-image" src="../images/logo4%5B1%5D.gif" alt="Philippa Bone Logo" >
+                <img class="logo-image" src="../images/logo4%5B1%5D.gif" alt="Susans Farmhouse Fudge Logo" >
             </a>
 
             <!-- Mobile Hamburger icon -->
@@ -47,25 +47,25 @@
 
 
         <!--Main Nav -->
-        <nav class="main-nav">
+        <nav class="main-nav" role="navigation">
             <ul>
                 <li>
                     <a title=" Internal link to Home Page" href="../index.html">Home</a>
                 </li>
                 <li>
-                    <a title=" Internal Link to About Me" href="../about.html">About Us</a>
+                    <a title=" Internal Link to About Us" href="../about.html">About Us</a>
                 </li>
 
                 <li>
-                    <a title="Internal Link to My Work" href="../fudge.html">Fudge</a>
+                    <a title="Internal Link to View all Fudge Products" href="../fudge.html">Fudge</a>
                 </li>
 
                 <li>
-                    <a title="Internal link to my main Blog page" href="../chocolate.html" >Chocolate</a>
+                    <a title="Internal link to View all Chocolate Products" href="../chocolate.html" >Chocolate</a>
                 </li>
 
                 <li>
-                    <a title="Internal link to my main Blog page" href="../events.html" >Events</a>
+                    <a title="Internal link to Events" href="../events.html" >Events</a>
                 </li>
 
                 <li>
@@ -77,12 +77,18 @@
     </header>
 
 
+    <!-- MAIN START -->
+        <main role="main">
+        <article id="skipnav">
 
-
+        <!-- Banner Image  -->
     <div class="header-banner">
-        <!-- Banner Image - MOBILE -->
-        <div class="banner-img"> <img src="../images/fudge-background.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire"> </div>
-        <div class="banner-img-desktop"> <img src="../images/fudge2_1200.jpg" alt="Philippa riding her horse alfie in fields in barrowford, lancashire">	</div>
+        <!-- Banner Image - Mobile  -->
+        <div class="banner-img"> <img src="../images/fudge-background.jpg" alt="Susans Handmade Baileys Fudge"> </div>
+        <!-- Banner Image - Desktop  -->
+        <div class="banner-img-desktop"> <img src="../images/fudge2_1200.jpg" alt="Susans Handmade Chocolate Orange Fudge"></div>
+
+
 
 
         <h1> Purchase Our Fudge </h1>
@@ -90,12 +96,6 @@
 
     </div>
 
-
-
-
-
-    <main role="main">
-        <article id="skipnav">
 
             <section class="products">
 
@@ -126,15 +126,13 @@
                             <h3> Select Amount</h3>
 
                             <div class="select-style">
-                                <select>
-                                    <option value="quantity">Quantity</option>
+                                <select name="Please select a Quantity" required="required" title="Quantity">
+                                    <option value="" selected disabled>Quantity</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                     <option value="4">4</option>
                                     <option value="5">5</option>
-
-
                                 </select>
 
                             </div>
@@ -173,8 +171,10 @@
                     </div>
 
                     <div>
-                        <img src="../images/carousell/choc.jpeg" alt="Susans chocolate fudge">
-                        <p class="text-carousel"> Chocolate</p>
+                        <a href="product-fudge5.html" title="link to purchase chocolate fudge">
+                            <img src="../images/carousell/choc.jpeg" alt="Susans chocolate fudge">
+                            <p class="text-carousel"> Chocolate</p>
+                        </a>
                     </div>
 
                     <div>
@@ -185,21 +185,15 @@
                     </div>
 
                     <div>
-                        <img src="../images/carousell/m-p.jpeg" alt="susans maple and pecan fudge">
-                        <p class="text-carousel"> Maple and Pecan</p>
+                        <a href="product-fudge4.html" title="Link to purchase Cappuccino fudge">
+                            <img src="../images/carousell/capp-product.jpeg" alt="susans Cappuccino fudge ">
+                            <p class="text-carousel"> Cappuccino </p>
+                        </a>
                     </div>
 
 
                 </div>
-                <!--
 
-                        <div class="container">
-                            <div>
-
-                                <img src="images/fudge5.jpg" alt="">
-                            </div>
-
-                        </div> -->
             </section>
         </article>
     </main>
@@ -208,15 +202,15 @@
 
     <!-- FOOTER -->
 
-    <footer>
+    <footer role="contentinfo">
         <div class="footer left">
             <ul>
-                <li> <a title=" Internal link to Home Page" href="../index.html">Home</a> </li>
-                <li> <a title=" Internal link to Home Page" href="../about.html">About</a> </li>
-                <li> <a title=" Internal link to Home Page" href="../fudge.html">Fudge</a> </li>
-                <li> <a title=" Internal link to Home Page" href="../chocolate.html">Chocolate</a> </li>
-                <li> <a title=" Internal link to Home Page" href="../events.html">Events</a> </li>
-                <li> <a title=" Internal link to Home Page" href="../contact.html">Contact</a> </li>
+                <li><a title=" Internal link to Home Page" href="../index.html">Home</a></li>
+                <li><a title=" Internal Link to About Us" href="../about.html">About Us</a></li>
+                <li><a title="Internal Link to View all Fudge Products" href="../fudge.html">Fudge</a></li>
+                <li><a title="Internal link to View all Chocolate Products" href="../chocolate.html" >Chocolate</a></li>
+                <li><a title="Internal link to Events" href="../events.html" >Events</a></li>
+                <li><a title="Internal link to Contact page" href="../contact.html">Contact</a></li>
             </ul>
         </div>
 
@@ -229,7 +223,7 @@
         <div class="footer right">
             <ul>
 
-                <li><img src="../images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto: lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
+                <li><img src="../images/icon/email.svg" alt="Susans Farmhouse Fudge Email"> <a href="mailto:lisajanerigg@hotmail.com" title="Send an Email to Susan's Farmhouse Fudge"> lisajanerigg@hotmail.com</a> </li>
 
                 <li> <img src="../images/icon/phone-call.svg" alt="Susans Farmhouse Fudge phone number">  01234 567890</li>
 

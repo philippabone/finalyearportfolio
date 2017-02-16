@@ -2,24 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fbf0e54-16de-403e-b8f8-e221be797003" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-choc/product-chocolate3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/product-fudge/product-fudge8.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product-chocolate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/product-fudge.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chocolate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fudge-background.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fudge-homepage.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fudge_box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fudge_events.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/lisa-show.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/baileys2-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/capp-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/choc_orange2-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/chocolate2-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/chocolate_drops-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/chocolate_drops.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/event.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/fudge_box.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/maple_pecan-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/sea_salt2-small-min.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/sea_salt2-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/stem_ginger-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/vanillia_fudge-small.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/wedding-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/wedding.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/Bin/wedding2.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/products/chocolate_drops-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fav-icon-16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/favicon-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/favicon32.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chocolate.html" afterPath="$PROJECT_DIR$/chocolate.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events.html" afterPath="$PROJECT_DIR$/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fudge.html" afterPath="$PROJECT_DIR$/fudge.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giftbox.html" afterPath="$PROJECT_DIR$/giftbox.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-choc/product-chocolate.html" afterPath="$PROJECT_DIR$/product-choc/product-chocolate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-choc/product-chocolate2.html" afterPath="$PROJECT_DIR$/product-choc/product-chocolate2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-choc/product-chocolate3.html" afterPath="$PROJECT_DIR$/product-choc/product-chocolate3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge2.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge3.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge4.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge5.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge6.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge7.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge8.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-fudge/product-fudge9.html" afterPath="$PROJECT_DIR$/product-fudge/product-fudge9.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,88 +76,98 @@
       <file leaf-file-name="fudge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fudge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="158" column="94" lean-forward="false" selection-start-line="158" selection-start-column="94" selection-end-line="158" selection-end-column="94" />
+            <state relative-caret-position="420">
+              <caret line="27" column="102" lean-forward="false" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-fudge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge.html">
+      <file leaf-file-name="product-chocolate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-fudge5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge5.html">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
+            <state relative-caret-position="1725">
+              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="events.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1875">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="475" column="25" lean-forward="false" selection-start-line="475" selection-start-column="25" selection-end-line="475" selection-end-column="25" />
+            <state relative-caret-position="280">
+              <caret line="1201" column="18" lean-forward="false" selection-start-line="1201" selection-start-column="18" selection-end-line="1201" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-fudge6.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge6.html">
+      <file leaf-file-name="product-chocolate2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
+            <state relative-caret-position="397">
+              <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-fudge7.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge7.html">
+      <file leaf-file-name="product-chocolate3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
+            <state relative-caret-position="1545">
+              <caret line="102" column="37" lean-forward="false" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-fudge8.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge8.html">
+      <file leaf-file-name="giftbox.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giftbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-fudge9.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge9.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-fudge2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="193" column="28" lean-forward="false" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+            <state relative-caret-position="480">
+              <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -142,28 +185,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.about</find>
-      <find>.container a p</find>
-      <find>.button</find>
-      <find>h3</find>
-      <find>.events im</find>
-      <find>row</find>
-      <find>space</find>
-      <find>event</find>
-      <find>events im</find>
-      <find>events</find>
-      <find>.container a</find>
-      <find>.fudge-purchase</find>
-      <find>label</find>
-      <find>contact</find>
-      <find>form</find>
-      <find>header div.hero h1</find>
-      <find>.CONTACT-US</find>
-      <find>hover</find>
-      <find>em</find>
-      <find>main-nav</find>
       <find>nav</find>
-      <find>footer</find>
       <find>.main</find>
       <find>.main-nav</find>
       <find>logo</find>
@@ -172,6 +194,27 @@
       <find>.contact-page</find>
       <find>.gift</find>
       <find>.banner-img</find>
+      <find>.banner-img-de</find>
+      <find>footer .footer</find>
+      <find>.contact-us</find>
+      <find>back</find>
+      <find>image</find>
+      <find>.main-nav ul li a</find>
+      <find>.product-info p</find>
+      <find>.container-pr</find>
+      <find>.products</find>
+      <find>img</find>
+      <find>ti</find>
+      <find>wa</find>
+      <find>tit</find>
+      <find>title</find>
+      <find>fudg</find>
+      <find>skip</find>
+      <find>body</find>
+      <find>skipnav</find>
+      <find>article</find>
+      <find>footer</find>
+      <find>.aboutus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,29 +232,31 @@
         <option value="$PROJECT_DIR$/css/owl.carousel.css" />
         <option value="$PROJECT_DIR$/css/owl.carousel.min.css" />
         <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/events.html" />
-        <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/product-fudge.html" />
         <option value="$PROJECT_DIR$/product-fudge2.html" />
         <option value="$PROJECT_DIR$/product-chocolate.html" />
-        <option value="$PROJECT_DIR$/product-choc/product-chocolate.html" />
-        <option value="$PROJECT_DIR$/product-choc/product-chocolate3.html" />
-        <option value="$PROJECT_DIR$/product-choc/product-chocolate2.html" />
+        <option value="$PROJECT_DIR$/css/owl.theme.default.min.css" />
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/chocolate.html" />
+        <option value="$PROJECT_DIR$/../agencyready-1/css/style.css" />
+        <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/giftbox.html" />
-        <option value="$PROJECT_DIR$/fudge.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge.html" />
-        <option value="$PROJECT_DIR$/product-fudge/product-fudge4.html" />
+        <option value="$PROJECT_DIR$/product-fudge/product-fudge2.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge3.html" />
+        <option value="$PROJECT_DIR$/product-fudge/product-fudge4.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge5.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge6.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge7.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge8.html" />
         <option value="$PROJECT_DIR$/product-fudge/product-fudge9.html" />
-        <option value="$PROJECT_DIR$/product-fudge/product-fudge2.html" />
+        <option value="$PROJECT_DIR$/fudge.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/product-choc/product-chocolate.html" />
+        <option value="$PROJECT_DIR$/product-choc/product-chocolate2.html" />
+        <option value="$PROJECT_DIR$/product-choc/product-chocolate3.html" />
+        <option value="$PROJECT_DIR$/contact.html" />
       </list>
     </option>
   </component>
@@ -222,9 +267,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="35" />
-    <option name="width" value="1209" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -281,7 +325,10 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.events.html">
+    <configuration default="false" name="events.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/susans-farmhouse-website-final/events.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -341,6 +388,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.events.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.events.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -365,14 +420,20 @@
       <workItem from="1485949236781" duration="2101000" />
       <workItem from="1486030055991" duration="47000" />
       <workItem from="1486030161645" duration="17870000" />
+      <workItem from="1486320330980" duration="2369000" />
+      <workItem from="1486460507172" duration="2160000" />
+      <workItem from="1486724199614" duration="2491000" />
+      <workItem from="1486754945608" duration="2476000" />
+      <workItem from="1486832469806" duration="1013000" />
+      <workItem from="1486834130077" duration="20576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214672000" />
+    <option name="totallyTimeSpent" value="245757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="35" width="1209" height="735" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5015674" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -380,10 +441,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21009098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.024024025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -404,28 +465,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///../agencyready-1/work.html" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="175" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="126" lean-forward="false" selection-start-line="134" selection-start-column="126" selection-end-line="134" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2355">
           <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,13 +524,6 @@
     <entry file="file:///../agencyready-1/css/style.css" />
     <entry file="file:///../agencyready-1/blog.html" />
     <entry file="file://$PROJECT_DIR$/css/flickity.pkgd.js" />
-    <entry file="file://$USER_HOME$/Documents/agencyready-1/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -496,201 +531,209 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/owl.carousel.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="5" column="2183" lean-forward="false" selection-start-line="5" selection-start-column="2177" selection-end-line="5" selection-end-column="2183" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events.html">
+    <entry file="file://$PROJECT_DIR$/product-fudge.html" />
+    <entry file="file://$PROJECT_DIR$/product-fudge2.html" />
+    <entry file="file://$PROJECT_DIR$/product-chocolate.html" />
+    <entry file="file://$USER_HOME$/Downloads/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="80" column="158" lean-forward="false" selection-start-line="80" selection-start-column="158" selection-end-line="80" selection-end-column="158" />
-          <folding />
+        <state relative-caret-position="-226">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
+    <entry file="file://$PROJECT_DIR$/css/owl.carousel.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="5" column="2198" lean-forward="false" selection-start-line="5" selection-start-column="2194" selection-end-line="5" selection-end-column="2198" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/owl.theme.default.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="35" lean-forward="false" selection-start-line="80" selection-start-column="35" selection-end-line="80" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="109" column="6" lean-forward="false" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="169" column="39" lean-forward="false" selection-start-line="169" selection-start-column="39" selection-end-line="169" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="171" column="61" lean-forward="false" selection-start-line="171" selection-start-column="61" selection-end-line="171" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-chocolate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="96" column="200" lean-forward="false" selection-start-line="96" selection-start-column="200" selection-end-line="96" selection-end-column="200" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="96" column="28" lean-forward="false" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="5" column="233" lean-forward="false" selection-start-line="5" selection-start-column="233" selection-end-line="5" selection-end-column="240" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chocolate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="114" column="96" lean-forward="false" selection-start-line="114" selection-start-column="96" selection-end-line="114" selection-end-column="96" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giftbox.html">
+    <entry file="file://$PROJECT_DIR$/../agencyready-1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="84" column="10" lean-forward="false" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fudge.html">
+    <entry file="file://$PROJECT_DIR$/../agencyready-1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="158" column="94" lean-forward="false" selection-start-line="158" selection-start-column="94" selection-end-line="158" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
+        <state relative-caret-position="160">
+          <caret line="736" column="18" lean-forward="true" selection-start-line="736" selection-start-column="18" selection-end-line="736" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="115" column="145" lean-forward="false" selection-start-line="115" selection-start-column="145" selection-end-line="115" selection-end-column="145" />
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="193" column="28" lean-forward="false" selection-start-line="193" selection-start-column="28" selection-end-line="193" selection-end-column="28" />
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-fudge/product-fudge5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fudge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="102" lean-forward="false" selection-start-line="27" selection-start-column="102" selection-end-line="27" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giftbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="102" lean-forward="false" selection-start-line="32" selection-start-column="102" selection-end-line="32" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="475" column="25" lean-forward="false" selection-start-line="475" selection-start-column="25" selection-end-line="475" selection-end-column="25" />
+        <state relative-caret-position="280">
+          <caret line="1201" column="18" lean-forward="false" selection-start-line="1201" selection-start-column="18" selection-end-line="1201" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="70" column="4" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="102" column="37" lean-forward="false" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-choc/product-chocolate2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding />
         </state>
       </provider>

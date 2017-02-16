@@ -2,7 +2,6 @@
 
 /* Mobile View */
 
-@import url('https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand|Walter+Turncoat');
 
 /* HEADER */
 
@@ -119,7 +118,7 @@
         z-index: -1;
         transition: all .3s ease-in-out;
         text-align: center;
-        font-family: titlefont;
+        font-family: titlefont,Patrick, "cursive";
         font-size: 1.5em;
         background: black;
         text-decoration: none;
@@ -186,7 +185,7 @@
         z-index: -1;
         transition: all .3s ease-in-out;
         text-align: center;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         font-size: 1.5em;
         background: #392613;
         text-decoration: none;
@@ -217,20 +216,20 @@
         -webkit-appearance: none;
         background-color: #fafafa;
         border: 1px solid #cacece;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);
         padding: 9px;
         border-radius: 3px;
         display: inline-block;
         position: relative;
     }
     .regular-checkbox:active, .regular-checkbox:checked:active {
-        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 1px 3px rgba(0,0,0,0.1);
     }
 
     .regular-checkbox:checked {
         background-color: #e9ecee;
         border: 1px solid #adb8c0;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
         color: #99a1a7;
     }
 
@@ -238,7 +237,7 @@
         content: '\2714';
         font-size: 14px;
         position: absolute;
-        top: 0px;
+        top: 0;
         left: 3px;
         color: #99a1a7;
     }
@@ -305,7 +304,7 @@
 
 /* TEXT ON CAROUSEL */
     .text-carousel {
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0;
         font-size: 2em;
@@ -332,19 +331,10 @@
 
     .banner{
         text-align: center;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         color: white;
         background-color: #392613;
-
     }
-    /*
-    header {
-        height: 600px;
-        background-image: url(../images/fudge-background.jpg);
-        width: 100%;
-        background-color: #2b0306;
-
-    } */
 
     header a {
         z-index: 1;
@@ -382,7 +372,7 @@
         background-color: #392613;
         font-size: 3.5em;
         color: #fff;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         line-height: 93%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -409,7 +399,7 @@
     section.main {
         display: flex;
         flex-direction: column;
-        padding: 0px;
+        padding: 0;
         flex:1;
     }
 
@@ -435,7 +425,7 @@
         vertical-align: middle;
         font-size: 2em;
         color: #fff;
-        font-family: titlefont, Patrick, sans-serif;
+        font-family: titlefont, Patrick, "cursive";
         background-color: #392613;
     }
 
@@ -444,7 +434,7 @@
         line-height: 1.5em;
         margin: 0 0 30px 0;
         color: #fff;
-        font-family: bodyfont, "Open Sans";
+        font-family: bodyfont, "Open Sans", sans-serif;
 
     }
 
@@ -453,7 +443,7 @@
         line-height: 1.5em;
         margin: 0 0 30px 0;
         color: #fff;
-        font-family: bodyfont;
+        font-family: bodyfont, "Open Sans", sans-serif;
 
     }
 
@@ -503,10 +493,11 @@
     }
 
 
-
+/* IMAGE LINKS ON HOMEPAGE */
 
     .fudge-image {
         background: #e6ccb3 url("../images/fudge-home.jpeg") no-repeat;
+        width: auto;
 
     }
     .choco-image {
@@ -517,7 +508,6 @@
 
 
 FOOTER
-
     footer {
         display: flex;
         flex-direction: column;
@@ -549,6 +539,7 @@ FOOTER
     }
     .footer ul {
         list-style-type: none;
+        display: inline;
     }
     .left{
         text-align: center;
@@ -581,7 +572,7 @@ FOOTER
         background-color: #392613;
         font-size: 3.5em;
         color: #fff;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         line-height: 93%;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -601,20 +592,18 @@ FOOTER
     }
 
     .aboutus p {
-        font-family: bodyfont;
+        font-family: bodyfont, "Open Sans", sans-serif;
     }
 
     .aboutus h3{
-        font-family: bodyfont;
-        /*font-family: titlefont;*/
+        font-family: bodyfont, "Open Sans", sans-serif;
         padding: 0 20px;
         text-align: center;
 
     }
 
     .aboutus h2{
-        font-family: titlefont;
-        /*font-family: titlefont;*/
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0 20px;
         color: #f2f2f2;
@@ -634,7 +623,7 @@ FOOTER
     }
 
     .products h2{
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0 20px;
         color: #f2f2f2;
@@ -669,7 +658,7 @@ FOOTER
 
     .container a p {
         font-size: 1.6em;
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         color: #392613;
         margin: 0;
@@ -710,13 +699,6 @@ FOOTER
 
 
 
-
-
-
-
-
-
-
 .product-page {
         text-align: left;
         font-size: 1.2em;
@@ -724,11 +706,11 @@ FOOTER
     }
 
     .product-page p {
-        font-family: bodyfont;
+        font-family: bodyfont, "Open Sans", sans-serif;
     }
 
     .product-page h2{
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0 20px;
         background-color: #392613;
@@ -739,11 +721,13 @@ FOOTER
         height: auto;
     }
 
+
     /* SELECT BOX ON PRODUCT PAGE */
 
     .container-product h3 {
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
+        margin-bottom: 0;
     }
     .select-style {
         margin-left: 10px;
@@ -761,8 +745,7 @@ FOOTER
         width: 150%;
         border: none;
         box-shadow: none;
-        background: transparent;
-        background-image: none;
+        background: transparent none;
         -webkit-appearance: none;
         font-size: 0.9em;
     }
@@ -813,7 +796,7 @@ FOOTER
         display: inline-block;
         font-size: 1.5em;
         cursor: pointer;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
     }
 
 /* FUDGE AND CHOCOLATE ON HOMEPAGE*/
@@ -824,7 +807,7 @@ FOOTER
         color: white;
         padding: 30px 20px;
         margin-top: 30%;
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -842,12 +825,12 @@ FOOTER
     }
 
     .events p {
-        font-family: bodyfont;
+        font-family: bodyfont, "Open Sans", sans-serif;
         padding: 0 5px;
     }
 
     .events h2{
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0 20px;
         color: #f2f2f2;
@@ -856,7 +839,7 @@ FOOTER
     }
 
     .events h3 {
-        font-family: titlefont;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         color: #392613;
         font-size: 2em;
@@ -872,11 +855,11 @@ FOOTER
     }
 
     .contact-page p {
-        font-family: bodyfont;
+        font-family: bodyfont, "Open Sans", sans-serif;
     }
 
     .contact-page h2{
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
         text-align: center;
         padding: 0 20px;
     }
@@ -884,6 +867,7 @@ FOOTER
     .contact-page ul li {
         list-style-type: none;
         margin-bottom: 20px;
+        color: #392613;
     }
 
     .contact-us ul {
@@ -930,7 +914,7 @@ FOOTER
         width: 100px;
         padding-top: 5px;
         font-size: 1em;
-        font-family: titlefont, Patrick;
+        font-family: titlefont, Patrick, "cursive";
     }
 
 
@@ -944,21 +928,6 @@ FOOTER
 
 
 @media screen and (min-width: 500px) {
-
-    /* CHECKBOX */
-
-    .container-product {
-        margin-left: 0px;
-    }
-/* FORM - GIFT PAGE */
-    .gift {
-        flex-flow: row wrap;
-    }
-
-
-    .fudge-purchase {
-        width: 50%;
-    }
 
     /* BANNER IMG */
 
@@ -1011,6 +980,23 @@ FOOTER
         margin-top: 20%;
         font-size: 2.5em;
     }
+
+    /* CHECKBOX */
+
+    .container-product {
+        margin-left: 0;
+    }
+    /* FORM - GIFT PAGE */
+    .gift {
+        flex-flow: row wrap;
+    }
+
+    /* FUDGE PAGE*/
+    .fudge-purchase {
+        width: 50%;
+    }
+
+
 
     /* FUDGE 500PX */
     .container a {
@@ -1072,8 +1058,14 @@ FOOTER
         width: 55%;
     }
 
+    .product-info p {
+        text-align: left;
+        margin-left: 10%;
+    }
 
-
+    .price-info {
+        text-align: center;
+    }
 
 
     em {
@@ -1146,22 +1138,20 @@ FOOTER
         padding: 0;
         font-size: 1em;
     }
-    /* size */
+
+
+
     .main-nav ul li {
         display: block;
         color: #fff;
         font-size: 0.8em;
+        padding: 0;
     }
 
 
     .main-nav--open {
         top: 0;
     }
-
-    .main-nav ul li {
-        padding: 0;
-    }
-
 
     .banner-img img {
         width: 100%;
@@ -1184,8 +1174,6 @@ FOOTER
         width: 100%;
     }
 
-    /* END */
-
     .main-nav ul li a {
         width: auto;
         display: inline-block;
@@ -1202,52 +1190,26 @@ FOOTER
         text-decoration: underline;
     }
 
-    .main-nav ul {
-        list-style-type: none;
-        margin-bottom: 0;
-        padding-left: 0;
-        overflow: hidden;
-        background-color: rgba(0, 0, 0, .0);
-    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ABOUT */
-
-
+/* ABOUT */
 
     section.aboutus p {
         padding: 0 150px;
         font-size: 1.3em;
     }
 
+    .aboutus{
+        padding:0;
+    }
 
-
-    /* FUDGE - PRODUCTS */
+/* FUDGE - PRODUCTS */
 
     .products p {
         font-size: 1.5em;
     }
     .products h3 {
         font-size: 2em;
+        margin-bottom: 0;
     }
 
     .container a {
@@ -1261,7 +1223,7 @@ FOOTER
         color: #cc9966;
     }
 
-    /* PRODUCT PAGE */
+/* PRODUCT PAGE */
 
     .product-image p {
         font-size: 1em;
@@ -1293,13 +1255,14 @@ FOOTER
 
     }
 
-    /* EVENTS */
+/* EVENTS */
 
     .events p {
         padding: 0 150px;
         font-size: 1.3em;
     }
-    /* CONTACT */
+
+/* CONTACT */
 
     .contact-page {
         margin: 40px 0 10px 20px;
@@ -1332,7 +1295,7 @@ FOOTER
         font-size: 1.6em;
     }
 
-    /* FOOTER */
+/* FOOTER */
     .icon-wrapper{
         dipslay: none;
     }
@@ -1347,7 +1310,6 @@ FOOTER
     footer .footer {
         flex: auto;
         width: 33%;
-        height: 210px;
     }
 
 
@@ -1415,13 +1377,8 @@ FOOTER
 
 @media screen and (min-width: 1010px) {
 
-    /* HOMEPAGE - ABOUT //// LEFT ALIGN?
 
-        .about p {
-            text-align: left;
-            padding: 0 275px;
-        }
-        /* FUDGE*/
+    /* FUDGE*/
 
     .container a {
         width: 21%;
